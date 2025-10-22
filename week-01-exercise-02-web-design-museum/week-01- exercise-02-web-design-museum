@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Week 01 - Exercise 02 - Web Design Museum</title>
+    </head>
+    <body>
+        <h1>Week 01 - Exercise 02 - Web Design Museum</h1>
+        <p>This exercise directly relates to the video "A brief history of the World Wide Web."  
+            By exploring a gallery of early websites, you will develop an eye for how design  
+            and technology have evolved over time. My task was to find a site that interests  
+            me and make a brief observation about it.
+        </p>
+        <a href="https://texastech.instructure.com/courses/59698/assignments/1401165?module_item_id=3662041">My Canvas Page</a>  
+        <a href="../index.html">Back to Homepage</a>
+    </body>
+</html>
