@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Week 02 - Exercise 01 - Create and Deploy Your Course Portfolio</title>
+    </head>
+    <body>
+        <h1>Week 02 - Exercise 01 - Create and Deploy Your Course Portfolio</h1>
+        <p>This single, comprehensive exercise requires you to run through the  
+            entire setup and deployment process. By the end, you will have a  
+            live, public URL that will serve as the central homepage for all  
+            your coursework this semester.
+
+        </p>
+        <a href="https://texastech.instructure.com/courses/59698/assignments/1401165?module_item_id=3662041">My Canvas Page</a>  
+        <a href="../index.html">Back to Homepage</a>
+    </body>
+</html>
