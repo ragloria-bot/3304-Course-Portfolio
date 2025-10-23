@@ -1,0 +1,135 @@
+body {
+    background-color: #f3a7e2; /* light pink */
+    font-family: Arial Rounded MT Bold, Arial, sans-serif; /* rounded font */
+    line-height: 1.6;
+    margin: 20px; /* add margin around the body */
+    color: #02090c; /* dark turquoise for text */
+    text-align: left; /* left-align all text */
+    align-items: flex-start; /* left-align items horizontally */
+    justify-content: flex-start; /* left-align items vertically */
+    min-height: 100vh; /* ensure body takes full viewport height */
+    padding: 10px; /* add padding inside the body */
+    box-sizing: border-box; /* include padding in element's total width and height */
+    max-width: 100%; /* prevent body from exceeding viewport width */
+    max-height: 100%; /* prevent body from exceeding viewport height */
+}
+
+h1 {
+    color: #02090c; /* dark turquoise */
+    font-size: 30px; 
+    padding: 10px;
+    margin-bottom: 15px; /* increases space below h1 */
+    margin-top: 10px; /* reduce space above h1 */
+    background-color: #f3a7e2; /* light pink background */
+    border: 5px solid #75044b; /* dark pink border */
+    border-radius: 5px; /* rounded corners */
+    padding: 10px; /* padding inside the box */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    width: fit-content; /* fit width to content */
+    max-width: 900px; /* limit max width */
+    height: fit-content; /* fit height to content */
+    max-height: 200px; /* limit max height */
+    margin-left: auto; /* left-align h1 horizontally */
+    margin-right: auto; /* left-align h1 horizontally */
+    font-family: Arial Rounded MT Bold, Arial, sans-serif; /* consistent font */
+    text-align: left; /* left-align text */
+}
+
+h2 {
+    color: #31023b; /* dark purple */
+    font-size: 18px; 
+    padding: 8px;
+    margin-bottom: 20px; /* increase space below h2 */
+    margin-top: 10px; /* reduce space above h2 */
+    background-color: #f3a7e2; /* light pink background */
+    border: 5px solid #cb309a; /* hot pink border */
+    border-radius: 5px; /* rounded corners */
+    padding: 10px; /* padding inside the box */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    width: fit-content; /* fit width to content */
+    max-width: 400px; /* limit max width */
+    height: fit-content; /* fit height to content */
+    max-height: 100px; /* limit max height */
+    margin-left: auto; /* left-align h2 horizontally */
+    margin-right: auto; /* left-align h2 horizontally */
+    font-family: Arial Rounded MT Bold, Arial, sans-serif; /* consistent font */
+    text-align: left; /* left-align text */
+}
+
+p {
+    color: #051718; /* dark teal */
+    font-size: 16px;
+    padding: 10px;
+    line-height: 1.7;
+    margin-top: 2px; /* reduce space above p */
+    margin-bottom: 10px; /* reduce space below p */
+    background-color: #f0f8ff; /* light blue background */
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 5px; /* rounded corners */
+    padding: 10px; /* padding inside the box */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    width: fit-content; /* fit width to content */
+    max-width: 600px; /* limit max width */
+    height: fit-content; /* fit height to content */
+    max-height: 300px; /* limit max height */
+    overflow-y: auto; /* add vertical scrollbar if content overflows */
+    margin-left: auto; /* center p horizontally */
+    margin-right: auto; /* center p horizontally */
+    font-family: Arial Rounded MT Bold, Arial, sans-serif; /* consistent font */
+}
+
+ul {
+    color: #0b060a; /* dark gray */
+    font-size: 18px;
+    padding: 10px;
+    line-height: 1.5;
+    margin-top: 2px; /* reduce space above ul */
+    margin-bottom: 10px; /* reduce space below ul */
+    background-color: #f0f8ff; /* light blue background */
+    border: 4px solid #0b060a; /* dark gray border */
+    border-radius: 5px; /* rounded corners */
+    padding: 10px; /* padding inside the box */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    width: fit-content; /* fit width to content */
+    max-width: 1000px; /* limit max width */
+    height: fit-content; /* fit height to content */
+    max-height: 1000px; /* limit max height */
+    overflow-y: auto; /* add vertical scrollbar if content overflows */
+    margin-left: auto; /* center ul horizontally */
+    margin-right: auto; /* center ul horizontally */
+    font-family: Arial Rounded MT Bold, Arial, sans-serif; /* consistent font */
+    list-style-type: disc; /* bullet points */
+    list-style-position: inside; /* bullets inside the box */
+    text-align: left; /* left align text */
+    text-justify: inter-word; /* justify text */
+    text-indent: 20px; /* indent first line */
+    text-transform: none; /* normal text case */
+    letter-spacing: normal; /* normal letter spacing */
+    word-spacing: normal; /* normal word spacing */
+    white-space: normal; /* normal white space handling */
+    word-break: normal; /* normal word breaking */
+    hyphens: none; /* no hyphenation */
+}
+
+body {
+    background-color: #f3a7e2; /* light pink */
+    font-family: Arial Rounded MT Bold, Arial, sans-serif; /* rounded font */
+    line-height: 1.6;
+    margin: 20px; /* add margin around the body */
+    color: #02090c; /* dark turquoise for text */
+    text-align: left; /* left-align all text */
+    min-height: 100vh; /* ensure body takes full viewport height */
+    padding: 10px; /* add padding inside the body */
+    box-sizing: border-box; /* include padding in element's total width and height */
+    max-width: 100%; /* prevent body from exceeding viewport width */
+    max-height: 100%; /* prevent body from exceeding viewport height */
+}
+image {
+    max-width: 100%; /* ensure images do not exceed container width */
+    height: auto; /* maintain aspect ratio */
+    display: block; /* remove inline spacing */
+    margin-left: auto; /* center image horizontally */
+    margin-right: auto; /* center image horizontally */
+    border-radius: 10px; /* rounded corners for images */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow for images */
+}
