@@ -12,7 +12,7 @@ body {
     box-sizing: border-box; /* include padding in element's total width and height */
     max-width: 100%; /* prevent body from exceeding viewport width */
     max-height: 100%; /* prevent body from exceeding viewport height */
-    text-align: justify;
+    text-align: justify; /* left-align all text */
     margin-left: justify; /* left-align h1 horizontally */
     margin-right: justify; /* left-align h1 horizontally */
 }
