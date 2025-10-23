@@ -133,3 +133,17 @@ image {
     border-radius: 10px; /* rounded corners for images */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow for images */
 }
+a {
+    color: #31023b; /* dark purple for links */
+    text-decoration: none; /* remove underline from links */
+    font-weight: bold; /* make links bold */
+    transition: color 0.3s ease; /* smooth color transition on hover */
+}
+a:hover {
+    color: #cb309a; /* hot pink on hover */
+    text-decoration: underline; /* underline on hover */
+}
+nav {
+    margin-bottom: 20px; /* space below navigation */
+    text-align: center; /* center navigation links */
+}
