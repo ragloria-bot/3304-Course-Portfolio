@@ -4,14 +4,17 @@ body {
     line-height: 1.6;
     margin: 20px; /* add margin around the body */
     color: #02090c; /* dark turquoise for text */
-    text-align: left; /* left-align all text */
-    align-items: flex-start; /* left-align items horizontally */
-    justify-content: flex-start; /* left-align items vertically */
+    text-align: justify; /* left-align all text */
+    align-items: justify; /* left-align items horizontally */
+    justify-content: auto; /* left-align items vertically */
     min-height: 100vh; /* ensure body takes full viewport height */
     padding: 10px; /* add padding inside the body */
     box-sizing: border-box; /* include padding in element's total width and height */
     max-width: 100%; /* prevent body from exceeding viewport width */
     max-height: 100%; /* prevent body from exceeding viewport height */
+    text-align: justify;
+    margin-left: justify; /* left-align h1 horizontally */
+    margin-right: justify; /* left-align h1 horizontally */
 }
 
 h1 {
@@ -29,10 +32,10 @@ h1 {
     max-width: 900px; /* limit max width */
     height: fit-content; /* fit height to content */
     max-height: 200px; /* limit max height */
-    margin-left: auto; /* left-align h1 horizontally */
-    margin-right: auto; /* left-align h1 horizontally */
+    margin-left: justify; /* left-align h1 horizontally */
+    margin-right: justify; /* left-align h1 horizontally */
     font-family: Arial Rounded MT Bold, Arial, sans-serif; /* consistent font */
-    text-align: left; /* left-align text */
+    text-align: justify; /* left-align text */
 }
 
 h2 {
@@ -50,10 +53,10 @@ h2 {
     max-width: 400px; /* limit max width */
     height: fit-content; /* fit height to content */
     max-height: 100px; /* limit max height */
-    margin-left: auto; /* left-align h2 horizontally */
-    margin-right: auto; /* left-align h2 horizontally */
+    margin-left: justify; /* left-align h2 horizontally */
+    margin-right: justify; /* left-align h2 horizontally */
     font-family: Arial Rounded MT Bold, Arial, sans-serif; /* consistent font */
-    text-align: left; /* left-align text */
+    text-align: justify; /* left-align text */
 }
 
 p {
@@ -73,9 +76,10 @@ p {
     height: fit-content; /* fit height to content */
     max-height: 300px; /* limit max height */
     overflow-y: auto; /* add vertical scrollbar if content overflows */
-    margin-left: auto; /* center p horizontally */
-    margin-right: auto; /* center p horizontally */
+    margin-left: justify; /* center p horizontally */
+    margin-right: justify; /* center p horizontally */
     font-family: Arial Rounded MT Bold, Arial, sans-serif; /* consistent font */
+   
 }
 
 ul {
@@ -95,8 +99,8 @@ ul {
     height: fit-content; /* fit height to content */
     max-height: 1000px; /* limit max height */
     overflow-y: auto; /* add vertical scrollbar if content overflows */
-    margin-left: auto; /* center ul horizontally */
-    margin-right: auto; /* center ul horizontally */
+    margin-left: justify; /* center ul horizontally */
+    margin-right: justify; /* center ul horizontally */
     font-family: Arial Rounded MT Bold, Arial, sans-serif; /* consistent font */
     list-style-type: disc; /* bullet points */
     list-style-position: inside; /* bullets inside the box */
@@ -109,6 +113,7 @@ ul {
     white-space: normal; /* normal white space handling */
     word-break: normal; /* normal word breaking */
     hyphens: none; /* no hyphenation */
+    
 }
 
 body {
@@ -123,6 +128,7 @@ body {
     box-sizing: border-box; /* include padding in element's total width and height */
     max-width: 100%; /* prevent body from exceeding viewport width */
     max-height: 100%; /* prevent body from exceeding viewport height */
+    text-align: left;
 }
 image {
     max-width: 100%; /* ensure images do not exceed container width */
@@ -138,6 +144,7 @@ a {
     text-decoration: none; /* remove underline from links */
     font-weight: bold; /* make links bold */
     transition: color 0.3s ease; /* smooth color transition on hover */
+    text-align: justify;
 }
 a:hover {
     color: #cb309a; /* hot pink on hover */
@@ -145,5 +152,5 @@ a:hover {
 }
 nav {
     margin-bottom: 20px; /* space below navigation */
-    text-align: center; /* center navigation links */
+    text-align: justify; /* center navigation links */
 }
