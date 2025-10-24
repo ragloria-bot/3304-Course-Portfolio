@@ -69,7 +69,7 @@ h4 {
 a {
   text-align: center;
   font-size: 20px;
-  line-height: 10;
+  line-height: ;
   font-weight: normal;
   color: #591241;
   text-decoration: none; /* Removes underline from links */
@@ -126,7 +126,7 @@ header {
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 10px; /* Adds space between the text and the border */
+  padding: 40px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
 nav {
