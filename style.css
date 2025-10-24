@@ -185,6 +185,7 @@ section {
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
   text-align: left; /* Centers the text within the heading */
+  margin-top: 50px
 }
 a:hover {
     text-decoration: underline; /* underline on hover */
