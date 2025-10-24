@@ -38,7 +38,7 @@ h2 {
   font-weight: bold;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 20px solid #f993d7; /* Sets a 5px solid light pink border */
+  border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
@@ -51,7 +51,7 @@ h3 {
   font-weight: bold;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 5px solid #f993d7; /* Sets a 5px solid light pink border */
+  border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
@@ -78,7 +78,7 @@ a {
   color: #591241;
   text-decoration: none; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
-  border: 10px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  border: 10px solid #f993d7; /* Sets a 5px solid light pink border */
   padding: 20px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
