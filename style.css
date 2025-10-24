@@ -96,6 +96,7 @@ ul {
   border: 0x solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
+  margin-left: 100px
 }
 
 ol {
