@@ -40,6 +40,7 @@ h2 {
   border: 20px solid #f993d7; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
+  text-decoration: underline; /* Underlines the text */
 }
 
 h3 {
@@ -52,6 +53,7 @@ h3 {
   border: 5px solid #f993d7; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
+  text-decoration: underline; /* Underlines the text */
 }
 
 h4 {
@@ -64,6 +66,7 @@ h4 {
   border: 5px solid #f993d7; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
+  text-decoration: underline; /* Underlines the text */
 }
 
 a {
