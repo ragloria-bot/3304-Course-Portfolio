@@ -6,7 +6,7 @@ body {
   background-color: #fc8bd6; 
   color: #781256; 
   margin-top: -400px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
 p {
@@ -33,7 +33,7 @@ h1 {
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
   margin: 80px;
 }
 
@@ -49,7 +49,7 @@ h2 {
   text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
 h3 {
@@ -64,7 +64,7 @@ h3 {
   text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
 h4 {
@@ -79,7 +79,7 @@ h4 {
   text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
 a {
@@ -94,7 +94,7 @@ a {
   padding: 20px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   margin: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
 ul {
@@ -108,7 +108,7 @@ ul {
   padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   margin-left: 100px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
 ol {
@@ -122,7 +122,7 @@ ol {
   padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   margin-left: 100px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
 li {
@@ -137,7 +137,7 @@ li {
   text-align: left; /* Centers the text within the heading */
   margin-left: 0px;
   margin-right: 0px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
 header {
@@ -151,7 +151,7 @@ header {
   padding: 40px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   margin-bottom: 50px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 nav {
   text-align: left;
@@ -165,7 +165,7 @@ nav {
   padding: 20px; /* Adds space between the text and the border */
   text-align: left; /* Centers the text within the heading */
   margin-bottom: 50px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
 footer {
@@ -180,7 +180,7 @@ footer {
   padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   margin-top: 50px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
 image {
@@ -194,7 +194,7 @@ image {
   padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */ 
   margin-top: 50px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 section {
   text-align: left;
@@ -207,7 +207,7 @@ section {
   padding: 30px; /* Adds space between the text and the border */
   text-align: left; /* Centers the text within the heading */
   margin-top: 50px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 a:hover {
     text-decoration: underline; /* underline on hover */
@@ -216,5 +216,5 @@ a:hover {
     transform: scale(1.05); /* slightly enlarge on hover */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
     transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* smooth transition */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px #f8d5f4eb;
 }
