@@ -4,7 +4,7 @@ body {
   padding: 600px;
   font-family: Arial, sans-serif;
   background-color: #fc8bd6; 
-  color: #591241; 
+  color: #781256; 
   margin-top: -400px;
 }
 
@@ -15,7 +15,7 @@ p {
   font-size: 30px;
   line-height: 10px;
   font-weight: normal;
-  color: #591241;
+  color: #781256;
 }
 
 h1 {
@@ -24,7 +24,7 @@ h1 {
   font-size: 70px;
   line-height: 1.5;
   font-weight: bold;
-  color: #591241;
+  color: #781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
@@ -36,7 +36,7 @@ h2 {
   font-size: 35px;
   line-height: 5;
   font-weight: bold;
-  color: #f7d9ed;
+  color: #781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
@@ -49,7 +49,7 @@ h3 {
   font-size: 25px;
   line-height: 1.4;
   font-weight: bold;
-  color: #f7d9ed;
+  color: ##781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
@@ -62,7 +62,7 @@ h4 {
   font-size: 20px;
   line-height: 1.5;
   font-weight: bold;
-  color: #f7d9ed;
+  color: #781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 5px solid #f993d7; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
@@ -75,7 +75,7 @@ a {
   font-size: 20px;
   line-height: 5;
   font-weight: normal;
-  color: #591241;
+  color: #781256;
   text-decoration: none; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
   border: 10px solid #f993d7; /* Sets a 5px solid light pink border */
@@ -88,7 +88,7 @@ ul {
   font-size: 20px;
   line-height: 1.5;
   font-weight: normal;
-  color: #591241;
+  color: #781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 0x solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
@@ -100,7 +100,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
-  color: #591241;
+  color: #781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
@@ -112,7 +112,7 @@ li {
   font-size: 25px;
   line-height: 1.5;
   font-weight: normal;
-  color: #591241;
+  color: #781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
@@ -127,7 +127,7 @@ header {
   font-size: 24px;
   line-height: 1.2;
   font-weight: bold;
-  color: #591241;
+  color: #781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 40px; /* Adds space between the text and the border */
@@ -138,7 +138,7 @@ nav {
   font-size: 16px;
   line-height: 2;
   font-weight: normal;
-  color: #591241;
+  color: #781256;
   text-decoration: bold; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
@@ -151,7 +151,7 @@ footer {
   font-size: 18px;
   line-height: 1.5;
   font-weight: normal;
-  color: #591241;
+  color: #781256;
   text-decoration: bold; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
@@ -176,7 +176,7 @@ section {
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
-  color: #591241;
+  color: #781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
@@ -184,7 +184,7 @@ section {
 }
 a:hover {
     text-decoration: underline; /* underline on hover */
-    background-color: #752786; /* purple on hover */
+    background-color: #984aa9; /* purple on hover */
     color: white; /* white text on hover */
     transform: scale(1.05); /* slightly enlarge on hover */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
