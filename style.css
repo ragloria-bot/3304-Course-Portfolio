@@ -6,6 +6,7 @@ body {
   background-color: #fc8bd6; 
   color: #781256; 
   margin-top: -400px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 p {
@@ -16,6 +17,9 @@ p {
   line-height: 10px;
   font-weight: normal;
   color: #781256;
+  background-color: #ff44c1; /* Sets the background color */
+  border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  padding: 30px; /* Adds space between the text and the border */
 }
 
 h1 {
@@ -29,6 +33,8 @@ h1 {
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 80px;
 }
 
 h2 {
@@ -43,6 +49,7 @@ h2 {
   text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 h3 {
@@ -57,6 +64,7 @@ h3 {
   text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 h4 {
@@ -71,6 +79,7 @@ h4 {
   text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -84,6 +93,8 @@ a {
   border: 10px solid #f993d7; /* Sets a 5px solid light pink border */
   padding: 20px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
+  margin: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 ul {
@@ -96,7 +107,8 @@ ul {
   border: 0x solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
-  margin-left: 100px
+  margin-left: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 ol {
@@ -109,6 +121,8 @@ ol {
   border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
+  margin-left: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 li {
@@ -123,7 +137,7 @@ li {
   text-align: left; /* Centers the text within the heading */
   margin-left: 0px;
   margin-right: 0px;
-
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 header {
@@ -136,6 +150,8 @@ header {
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 40px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 nav {
   text-align: left;
@@ -148,6 +164,8 @@ nav {
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 20px; /* Adds space between the text and the border */
   text-align: left; /* Centers the text within the heading */
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -161,7 +179,8 @@ footer {
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
-  
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 image {
@@ -173,7 +192,9 @@ image {
   background-color: #ff44c1; /* Sets the background color */
   border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
-  text-align: center; /* Centers the text within the heading */
+  text-align: center; /* Centers the text within the heading */ 
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 section {
   text-align: left;
@@ -185,7 +206,8 @@ section {
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
   text-align: left; /* Centers the text within the heading */
-  margin-top: 50px
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 a:hover {
     text-decoration: underline; /* underline on hover */
@@ -194,4 +216,5 @@ a:hover {
     transform: scale(1.05); /* slightly enlarge on hover */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
     transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* smooth transition */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
