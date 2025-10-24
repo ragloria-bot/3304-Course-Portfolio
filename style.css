@@ -112,7 +112,9 @@ li {
   background-color: #ff44c1; /* Sets the background color */
   border: 0px solid #f7d9ed; /* Sets a 20px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
-  text-align: center; /* Centers the text within the heading */
+  text-align: left; /* Centers the text within the heading */
+  margin-left: 600px;
+  margin-right: 300px
 }
 
 header {
@@ -148,7 +150,7 @@ footer {
   text-decoration: bold; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
   border: 20px solid #f7d9ed; /* Sets a 20px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
+  padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
 
