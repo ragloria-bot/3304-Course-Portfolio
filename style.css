@@ -25,9 +25,8 @@ h1 {
   font-weight: bold;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 20px solid #f7d9ed; /* Sets a 20px solid light pink border */
-  padding: 10px; /* Adds space between the text and the border */
-  
+  border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
 
@@ -38,7 +37,7 @@ h2 {
   font-weight: bold;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 20px solid #f7d9ed; /* Sets a 20px solid light pink border */
+  border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
@@ -46,48 +45,48 @@ h2 {
 h3 {
   text-align: left;
   font-size: 25px;
-  line-height: 5;
+  line-height: 1.4;
   font-weight: bold;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 20px solid #f7d9ed; /* Sets a 20px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
+  border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
 
 h4 {
   text-align: left;
   font-size: 20px;
-  line-height: 5;
+  line-height: 1.5;
   font-weight: bold;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 20px solid #f7d9ed; /* Sets a 20px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
+  border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
 
 a {
-  text-align: left;
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   font-weight: bold;
   color: #591241;
   text-decoration: none; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
-  border: 10px solid #f7d9ed; /* Sets a 10px solid light pink border */
+  border: 10px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 20px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
 
 ul {
   text-align: left;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: normal;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 0px solid #f7d9ed; /* Sets a 20px solid light pink border */
+  border: 0x solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
@@ -99,8 +98,8 @@ ol {
   font-weight: normal;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 20px solid #f7d9ed; /* Sets a 20px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
+  border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
 
@@ -111,11 +110,12 @@ li {
   font-weight: normal;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 0px solid #f7d9ed; /* Sets a 20px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
+  border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  padding: 10px; /* Adds space between the text and the border */
   text-align: left; /* Centers the text within the heading */
-  margin-left: 600px;
+   margin-left: 600px;
   margin-right: 300px
+    
 }
 
 header {
@@ -125,8 +125,8 @@ header {
   font-weight: bold;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 20px solid #f7d9ed; /* Sets a 20px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
+  border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
 nav {
@@ -137,8 +137,8 @@ nav {
   color: #591241;
   text-decoration: bold; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
-  border: 20px solid #f7d9ed; /* Sets a 20px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
+  border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  padding: 20px; /* Adds space between the text and the border */
   text-align: left; /* Centers the text within the heading */
 }
 
@@ -150,9 +150,10 @@ footer {
   color: #591241;
   text-decoration: bold; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
-  border: 20px solid #f7d9ed; /* Sets a 20px solid light pink border */
+  border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
+  
 }
 
 image {
@@ -162,8 +163,8 @@ image {
   font-weight: normal;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 20px solid #f7d9ed; /* Sets a 20px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
+  border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
 }
 section {
@@ -173,9 +174,7 @@ section {
   font-weight: normal;
   color: #591241;
   background-color: #ff44c1; /* Sets the background color */
-  border: 0px solid #f7d9ed; /* Sets a 20px solid light pink border */
+  border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
   text-align: left; /* Centers the text within the heading */
 }
-
-
