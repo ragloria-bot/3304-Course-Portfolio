@@ -14,12 +14,13 @@ p {
   margin: 10px 0;
   padding: 30px;
   font-size: 30px;
-  line-height: 20px;
+  line-height: 10px;
   font-weight: normal;
   color: #781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 30px; /* Adds space between the text and the border */
+  
 }
 
 h1 {
