@@ -49,7 +49,7 @@ a {
     font-size: 20px;
     line-height: 5;
     font-weight: normal;
-    color: #781256;
+    color: #570d3e;
     text-decoration: none; /* Removes underline from links */
     background-color: #ff44c1; /* Sets the background color */
     border: 10px solid #f993d7; /* Sets a 5px solid light pink border */
@@ -64,7 +64,7 @@ ul {
     font-size: 20px;
     line-height: 1.5;
     font-weight: normal;
-    color: #781256;
+    color: #570d3e;
     background-color: #ff44c1; /* Sets the background color */
     border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
     padding: 30px; /* Adds space between the text and the border */
@@ -78,7 +78,7 @@ ol {
     font-size: 16px;
     line-height: 1.5;
     font-weight: normal;
-    color: #781256;
+    color: #570d3e;
     background-color: #ff44c1; /* Sets the background color */
     border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
     padding: 30px; /* Adds space between the text and the border */
@@ -92,7 +92,7 @@ li {
     font-size: 25px;
     line-height: 1.5;
     font-weight: normal;
-    color: #781256;
+    color: #570d3e;
     background-color: #ff44c1; /* Sets the background color */
     border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
     padding: 10px; /* Adds space between the text and the border */
