@@ -24,10 +24,11 @@ body {
 
 /* Heading styling within the card */
 .card h1 {
-    color: #333; /* Choose a text color */
+    color: black; /* Choose a text color */
     font-size: 50px; /* Choose a font-size */
+    margin: 10px 25px;
     margin-bottom: 16px; /* Add some space below the heading */
-    line-height: 50px
+    line-height: 50px;
 }
 
 /* Paragraph styling within the card */
