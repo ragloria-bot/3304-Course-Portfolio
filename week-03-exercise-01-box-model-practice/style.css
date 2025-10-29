@@ -16,7 +16,7 @@ body {
     max-width: 1000px; /* Or a different width */
     margin: 0 auto; /* Centers the card horizontally */
     padding: 48px; /* A value between 16px and 48px */
-    background-color: #eecae2; /* Choose a background-color */
+    background-color: #ffdef4; /* Choose a background-color */
     border: 4px solid #781256; /* Add a border */
     border-radius: 8px; /* Optional: Add rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
