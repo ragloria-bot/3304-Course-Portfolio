@@ -88,19 +88,6 @@ ul {
     margin-left: 100px;
     text-shadow: 2px 2px 4px #f8d5f4eb;
     }
-ol {
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: normal;
-    color: #781256;
-    background-color: #ff44c1; /* Sets the background color */
-    border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
-    padding: 10px; /* Adds space between the text and the border */
-    text-align: center; /* Centers the text within the heading */
-    margin-left: 100px;
-    text-shadow: 2px 2px 4px #f8d5f4eb;
-    }
 
 li {
     text-align: center;
@@ -139,3 +126,12 @@ li {
     text-shadow: 2px 2px 4px #f8d5f4eb;
     margin: 20px;
     } 
+    main {
+    text-align: left;
+    margin: 1.2px 50px;
+    padding: 100px;
+    line-height: 50px;
+    font-weight: normal;
+    text-wrap: balance;
+    }
+    
