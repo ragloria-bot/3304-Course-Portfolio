@@ -62,6 +62,9 @@ main>p {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; /* Adjust this value for desired spacing between cards */
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    flex-direction: column;
 }
 
 .collection-card {
@@ -70,9 +73,6 @@ main>p {
     padding: 16px;
       /* ... other styles for collection-card ... */
    flex: 1 1 300px; /* flex-grow, flex-shrink, flex-basis */
-   display: flex;
-   flex-wrap: wrap; /* Allows items to wrap to the next line */
-   flex-direction: column;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    transition: transform 0.2s;
 }
@@ -128,20 +128,20 @@ main>p {
   body { background-image: url("images/travel-background.jpg"); }
 }
 /* Mobile (stacks vertically by default due to flex-wrap and no specific width) */
-.collection-card {
+.collection-grid {
   flex-basis: 100%; /* Each item takes full width on mobile */
 }
 
 /* Tablet (two columns) */
 @media (min-width: 768px) {
-  .collection-card {
+  .collection-grid {
     flex-basis: calc(50% - 10px); /* Two columns, accounting for margin */
   }
 }
 
 /* Desktop (three columns) */
 @media (min-width: 1024px) {
-  .collection-card {
+  .collection-grid {
     flex-basis: calc(33.333% - 10px); /* Three columns, accounting for margin */
   }
 }
