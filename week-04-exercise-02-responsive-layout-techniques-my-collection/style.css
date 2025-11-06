@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-image: url('travel-background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 html,
 body {
@@ -17,31 +24,6 @@ body {
     align-items: flex-start;
     padding: 32px 0;
 }
-/* Parallax / hero background (image file located in the same folder as this CSS and the page)
-   The HTML already contains: <div class="parallax"></div>
-   Make sure the image file `travel-background.png` exists next to this HTML file.
-*/
-.parallax {
-    background-image: url('./travel-background.png');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 320px; /* adjust height to taste */
-}
-
-/* Alternative: set a full-page background on the <body> instead of a single element
-   Uncomment and edit the path below if you prefer a site-wide background.
-*/
-/*
-body {
-    background-image: url('./travel-background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-*/
 
 main {
    
