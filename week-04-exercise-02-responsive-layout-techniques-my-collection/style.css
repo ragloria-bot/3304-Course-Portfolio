@@ -31,7 +31,7 @@ main {
     max-width: 1200px;
     width: 90%;
     padding: 16px;
-    border: 5px solid rgba(3, 124, 92, 0.25);
+    border: 10px solid rgba(3, 124, 92, 0.25);
     background-color: #aaeff3; 
 }
 
