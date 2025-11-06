@@ -43,11 +43,12 @@ ul {
     line-height: 1.5;
     font-weight: normal;
     color: #170411;
-    background-color: #ff44c1; /* Sets the background color */
+    background-color: #f56bc7; /* Sets the background color */
     border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
     padding: 10px; /* Adds space between the text and the border */
     text-align: center; /* Centers the text within the heading */
     margin-left: -400px;
+    text-wrap: balance;
     }
 
 li {
@@ -62,6 +63,7 @@ li {
     text-align: left; /* Centers the text within the heading */
     margin-left: 500px;
     margin-right: 0px;
+    text-wrap: balance;
   }
  a:hover {
     text-decoration: underline; /* underline on hover */
