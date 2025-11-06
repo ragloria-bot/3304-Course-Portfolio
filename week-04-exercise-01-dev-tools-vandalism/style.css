@@ -55,7 +55,7 @@ ul {
     border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
     padding: 10px; /* Adds space between the text and the border */
     text-align: center; /* Centers the text within the heading */
-    margin-left: 200px;
+    margin-left: 100px;
     text-wrap: balance;
     }
 
@@ -69,7 +69,7 @@ li {
     padding: 10px; /* Adds space between the text and the border */
     text-align: left; /* Aligns the text to the left */
     text-wrap: balance;
-    margin-left: 200px;
+    margin-left: 300px;
     }
  a:hover {
     text-decoration: underline; /* underline on hover */
