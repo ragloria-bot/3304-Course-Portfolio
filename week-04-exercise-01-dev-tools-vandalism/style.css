@@ -58,7 +58,7 @@ li {
     font-weight: normal;
     color: #170411;
     background-color: #ff44c1; /* Sets the background color */
-    border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
+    border : solid #f7d9ed; /* Sets a 5px solid light pink border */
     padding: 10px; /* Adds space between the text and the border */
     text-align: left; /* Centers the text within the heading */
     margin-left: 500px;
