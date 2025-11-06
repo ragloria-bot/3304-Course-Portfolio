@@ -62,7 +62,7 @@ li {
     padding: 10px; /* Adds space between the text and the border */
     text-align: left; /* Centers the text within the heading */
     margin-left: 500px;
-    margin-right: 0px;
+    margin-right: 300px;
     text-wrap: balance;
   }
  a:hover {
