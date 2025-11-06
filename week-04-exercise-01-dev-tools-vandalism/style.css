@@ -104,7 +104,7 @@ li {
     font-weight: normal;
     text-wrap: balance;
     }
-    screenshot-container {
+    .screenshot-container {
     text-align: center;
     margin: 1.2px 50px;
     padding: 20px;

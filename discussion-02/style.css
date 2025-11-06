@@ -132,3 +132,11 @@ body {
     text-shadow: 2px 2px 4px #f8d5f4eb;
     margin: 20px;
     } 
+    .screenshot-container {
+    text-align: center;
+    margin: 1.2px 50px;
+    padding: 20px;
+    line-height: 50px;
+    font-weight: normal;
+    text-wrap: balance;
+    } 
