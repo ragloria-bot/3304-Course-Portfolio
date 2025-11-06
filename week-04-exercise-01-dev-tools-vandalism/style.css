@@ -69,7 +69,7 @@ li {
     padding: 10px; /* Adds space between the text and the border */
     text-align: left; /* Aligns the text to the left */
     text-wrap: balance;
-    margin-left: 300px;
+    margin-left: 400px;
     }
  a:hover {
     text-decoration: underline; /* underline on hover */
