@@ -43,8 +43,8 @@ ul {
     line-height: 1.5;
     font-weight: normal;
     color: #170411;
-    background-color: #f56bc7; /* Sets the background color */
-    border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
+    background-color: #ff44c1; /* Sets the background color */
+    border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
     padding: 10px; /* Adds space between the text and the border */
     text-align: center; /* Centers the text within the heading */
     margin-left: -400px;
@@ -58,7 +58,6 @@ li {
     font-weight: normal;
     color: #170411;
     background-color: #ff44c1; /* Sets the background color */
-    border : solid #f7d9ed; /* Sets a 5px solid light pink border */
     padding: 10px; /* Adds space between the text and the border */
     text-align: left; /* Centers the text within the heading */
     margin-left: 100px;
