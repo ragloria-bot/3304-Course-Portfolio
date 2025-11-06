@@ -54,7 +54,6 @@ ul {
     background-color: #ff44c1; /* Sets the background color */
     border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
     padding: 10px; /* Adds space between the text and the border */
-    text-align: center; /* Centers the text within the heading */
     margin-left: 10px;
     margin-right: 10px;
     text-wrap: balance;
