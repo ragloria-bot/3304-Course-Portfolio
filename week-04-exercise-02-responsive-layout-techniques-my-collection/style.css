@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: #66eff6;
-    background-image: url(travel-background.png);
+    background-image: url('images/travel-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
