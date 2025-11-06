@@ -10,7 +10,7 @@ body {
 }
 /* Full-page background */
 body {
-  background-image: url("images/bg.jpg");
+  background-image: url("/images/travel-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;        /* cover fills viewport while preserving aspect ratio */
   background-position: center;   /* centers the image */
