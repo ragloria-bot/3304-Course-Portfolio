@@ -77,7 +77,6 @@ li {
     text-align: left; /* Centers the text within the heading */
     margin-left: 500px;
     margin-right: 0px;
-    text-shadow: 2px 2px 4px #f8d5f4eb;
   }
  a:hover {
     text-decoration: underline; /* underline on hover */
