@@ -8,7 +8,15 @@ body {
     min-height: 100vh;
     margin: 0;
 }
-
+/* Full-page background */
+body {
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;        /* cover fills viewport while preserving aspect ratio */
+  background-position: center;   /* centers the image */
+  background-color: #111;        /* fallback color while image loads */
+  min-height: 100vh;             /* ensures page is at least full viewport height */
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
