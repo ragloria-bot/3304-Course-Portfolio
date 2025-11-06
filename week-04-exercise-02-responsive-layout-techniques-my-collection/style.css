@@ -17,6 +17,13 @@ body {
     align-items: flex-start;
     padding: 32px 0;
 }
+element.style {
+    background-image: url('travel-background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 main {
    
