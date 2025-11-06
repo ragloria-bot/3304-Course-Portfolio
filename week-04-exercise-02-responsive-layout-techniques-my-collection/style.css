@@ -14,7 +14,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;        /* cover fills viewport while preserving aspect ratio */
   background-position: center;   /* centers the image */
-  background-color: #111;        /* fallback color while image loads */
+  background-color: #aaeff3;        /* fallback color while image loads */
   min-height: 100vh;             /* ensures page is at least full viewport height */
 }
 body {
