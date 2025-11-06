@@ -15,7 +15,7 @@ body {
   background-position: center;   /* centers the image */
   background-color: #aaeff3;        /* fallback color while image loads */
   min-height: 100vh;  /* ensures page is at least full viewport height */
-  background-size: auto 100%;
+  background-size: cover;        /* cover fills viewport while preserving aspect ratio */
   background-attachment: fixed;
 }
 body {
