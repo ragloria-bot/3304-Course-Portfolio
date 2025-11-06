@@ -122,5 +122,23 @@ main>p {
 @media (max-width: 600px) {
   body { background-image: url("images/travel-background.jpg"); }
 }
+/* Mobile (stacks vertically by default due to flex-wrap and no specific width) */
+.item {
+  flex-basis: 100%; /* Each item takes full width on mobile */
+}
+
+/* Tablet (two columns) */
+@media (min-width: 768px) {
+  .item {
+    flex-basis: calc(50% - 10px); /* Two columns, accounting for margin */
+  }
+}
+
+/* Desktop (three columns) */
+@media (min-width: 1024px) {
+  .item {
+    flex-basis: calc(33.333% - 10px); /* Three columns, accounting for margin */
+  }
+}
 
 
