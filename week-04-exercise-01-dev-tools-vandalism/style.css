@@ -61,8 +61,7 @@ li {
     border : solid #f7d9ed; /* Sets a 5px solid light pink border */
     padding: 10px; /* Adds space between the text and the border */
     text-align: left; /* Centers the text within the heading */
-    margin-left: 500px;
-    margin-right: 300px;
+    margin-left: 100px;
     text-wrap: balance;
   }
  a:hover {
