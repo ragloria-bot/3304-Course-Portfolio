@@ -17,6 +17,7 @@ body {
   min-height: 100vh;  /* ensures page is at least full viewport height */
   background-size: cover;        /* cover fills viewport while preserving aspect ratio */
   background-attachment: fixed;
+  padding-block: inherit;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
