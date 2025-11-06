@@ -59,8 +59,7 @@ li {
     color: #170411;
     background-color: #ff44c1; /* Sets the background color */
     padding: 10px; /* Adds space between the text and the border */
-    text-align: left; /* Centers the text within the heading */
-    margin-left: 50px;
+    text-align: left; /* Aligns the text to the left */
     text-wrap: balance;
   }
  a:hover {
