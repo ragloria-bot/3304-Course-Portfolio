@@ -104,5 +104,13 @@ li {
     font-weight: normal;
     text-wrap: balance;
     }
+    screenshot-container {
+    text-align: center;
+    margin: 1.2px 50px;
+    padding: 20px;
+    line-height: 50px;
+    font-weight: normal;
+    text-wrap: balance;
+    }
 
 
