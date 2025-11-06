@@ -124,7 +124,7 @@ li {
     text-align: center; /* Centers the text within the heading */ 
     margin-top: 50px;
     text-shadow: 2px 2px 4px #f8d5f4eb;
-    margin: 20px;
+    margin: 20px; 
     } 
     main {
     text-align: left;
@@ -134,4 +134,5 @@ li {
     font-weight: normal;
     text-wrap: balance;
     }
-    
+
+
