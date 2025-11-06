@@ -64,7 +64,6 @@ main>p {
     gap: 20px; /* Adjust this value for desired spacing between cards */
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap to the next line */
-    flex-direction: column;
 }
 
 .collection-card {
