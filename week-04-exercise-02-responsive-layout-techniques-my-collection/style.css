@@ -117,7 +117,7 @@ main>p {
 @media screen and (min-width: 768px) {
   /* Adjust .collection-card flex-basis for a two-column layout */
   .collection-card {
-    flex-basis: calc(30% - 20px); /* Adjust for desired spacing, e.g., 20px gap */
+    flex-basis: calc(40% - 20px); /* Adjust for desired spacing, e.g., 20px gap */
   }
 }
 @media (max-width: 600px) {
