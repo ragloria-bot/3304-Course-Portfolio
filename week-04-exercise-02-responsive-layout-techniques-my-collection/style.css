@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: #66eff6;
-    background-image: url('images/textureweek-04-exercise-02-responsive-layout-techniques-my-collection/travel-background.jpg-background.jpg');
+    background-image: url(images/travel-background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
