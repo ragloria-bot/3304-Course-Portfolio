@@ -113,7 +113,7 @@ main>p {
   }
 }
 @media (max-width: 600px) {
-  body { background-image: url("images/travel-background-small.jpg"); }
+  body { background-image: url("\images\travel-backgound.jpg"); }
 }
 
 
