@@ -8,10 +8,7 @@ body {
   margin-top: -580px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
   background-size: 50px 50px;
-  -webkit-text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  -ms-text-size-adjust: none;
-  text-size-adjust: none;
+
 }
 
 p {
