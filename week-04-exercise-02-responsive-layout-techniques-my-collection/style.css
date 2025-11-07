@@ -101,34 +101,7 @@ main>p {
     margin-bottom: 0;
     line-height: 1.6;
 }
-ul {
-    text-align: left;
-    font-size: 20px;
-    line-height: 1.5;
-    font-weight: normal;
-    color: #781256;
-    background-color: #ff44c1; /* Sets the background color */
-    border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-    padding: 30px; /* Adds space between the text and the border */
-    text-align: center; /* Centers the text within the heading */
-    margin-left: 100px;
-    text-shadow: 2px 2px 4px #f8d5f4eb;
-    }
-   li {
-    text-align: center;
-    font-size: 25px;
-    line-height: 1.5;
-    font-weight: normal;
-    color: #781256;
-    background-color: #ff44c1; /* Sets the background color */
-    border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-    padding: 10px; /* Adds space between the text and the border */
-    text-align: left; /* Centers the text within the heading */
-    margin-left: 500px;
-    margin-right: 0px;
-    text-shadow: 2px 2px 4px #f8d5f4eb;
-  }
-  a {
+p a {
     text-align: center;
     font-size: 20px;
     line-height: 5;
