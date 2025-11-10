@@ -2,7 +2,7 @@ body {
 margin: 60px;
 background-color: #fc8bd6;
 font-family: Arial, sans-serif;
-text-align: left;
+text-align: center;
 text-shadow: 2px 2px 4px #f8d5f4eb;
 color: #781256;
 }
@@ -24,7 +24,6 @@ h1 {
   font-weight: bold;
   color: #781256;
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  text-align: center; /* Centers the text within the heading */
   text-shadow: 2px 2px 4px #f8d5f4eb;
   margin: 80px;
 }
@@ -35,7 +34,6 @@ h2 {
   font-weight: bold;
   color: #781256;
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
@@ -47,7 +45,6 @@ h3 {
   font-weight: bold;
   color: #781256;
   border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
@@ -59,14 +56,13 @@ h4 {
   font-weight: bold;
   color: #781256;
   border: 5px solid #f993d7; /* Sets a 5px solid light pink border */
-  text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
 }
 
 ul {
   font-size: 20px;
-  line-height: 21px;
+  line-height: 30px;
   font-weight: normal;
   color: #781256;
   border: 0x solid #f7d9ed; /* Sets a 5px solid light pink border */
@@ -75,7 +71,6 @@ ul {
 }
 
 ol {
-  text-align: center;
   font-size: 16px;
   line-height: 17px;
   font-weight: normal;
@@ -86,17 +81,16 @@ ol {
 }
 
 li {
-  text-align: center;
   font-size: 25px;
   line-height: 26px;
   font-weight: normal;
   color: #781256;
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  text-shadow: 2px 2px 4px #f8d5f4eb;
+  text-shadow: 2px 2px 4px #f8d5f4eb;;
+  margin: 20px 0;
 }
 
 header {
-  text-align: center;
   font-size: 24px;
   line-height: 25px;
   font-weight: bold;
@@ -126,7 +120,6 @@ footer {
   text-decoration: bold; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  text-align: center; /* Centers the text within the heading */
   margin-top: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
@@ -149,7 +142,6 @@ section {
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   margin-top: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
-  text-align: center;
 }
 a:hover {
     text-decoration: underline; /* underline on hover */
