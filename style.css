@@ -69,17 +69,6 @@ h4 {
   margin: 80px;
 }
 
-a {
-  text-align: center;
-  font-size: 20px;
-  font-weight: normal;
-  color: #781256;
-  text-decoration: none; /* Removes underline from links */
-  border: 10px solid #f993d7; /* Sets a 5px solid light pink border */
-  margin: 20px;
-  text-shadow: 2px 2px 4px #f8d5f4eb;
-}
-
 ul {
   font-size: 20px;
   line-height: 1.5;
@@ -167,7 +156,7 @@ image {
   background-position: fixed;
 }
 section {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: normal;
   color: #781256;
@@ -175,6 +164,7 @@ section {
   padding: 30px; /* Adds space between the text and the border */
   margin-top: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
+  text-align: center;
 }
 a:hover {
     text-decoration: underline; /* underline on hover */
