@@ -101,8 +101,18 @@ nav {
   border: 2px solid #f7d9ed; /* Sets a 5px solid light pink border */
   margin-bottom: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
+  border-block-end-width: inherit;
 }
-
+nav.link {
+  font-size: 25px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #781256;
+  text-decoration: bold; /* Removes underline from links */
+  border: 2px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 4px #f8d5f4eb;
+}
 footer {
   font-size: 18px;
   line-height: 19px;
