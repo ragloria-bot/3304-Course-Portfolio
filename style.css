@@ -100,6 +100,7 @@ header {
   padding: 30px; /* Adds space between the text and the border */
   margin-bottom: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
+  margin: 100px
 }
 nav {
   font-size: 16px;
