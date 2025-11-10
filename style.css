@@ -1,17 +1,10 @@
 body {
-  text-align: left;
-  margin: 60px;
-  padding: 600px;
-  font-family: Arial, sans-serif;
-  background-color: #fc8bd6; 
-  color: #781256; 
-  margin-top: -580px;
-  text-shadow: 2px 2px 4px #f8d5f4eb;
-  -webkit-text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  -ms-text-size-adjust: none;
-  text-size-adjust: none;
-  background-position: fixed;
+margin: 60px;
+background-color: #fc8bd6;
+font-family: Arial, sans-serif;
+text-align: left;
+text-shadow: 2px 2px 4px #f8d5f4eb;
+color: #781256;
 }
 
 p {
