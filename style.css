@@ -121,7 +121,6 @@ footer {
   line-height: 19px;
   font-weight: normal;
   color: #781256;
-  text-decoration: bold; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
   border: 0.325em solid #f7d9ed; /* Sets a 5px solid light pink border */
   margin-top: 50px;
