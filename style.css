@@ -9,7 +9,7 @@ color: #781256;
 
 p {
   margin: 10px 0;
-  padding: 1.875em; /* 30px */
+  padding: 1.0em; /* 30px */
   font-size: 30px;
   line-height: 31px;
   font-weight: normal;
@@ -127,7 +127,6 @@ footer {
   margin-top: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
   margin: 200px;
-  padding: 1.875em; /* 30px */
 }
 
 image {
