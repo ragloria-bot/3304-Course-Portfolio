@@ -135,7 +135,7 @@ section {
   margin-top: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
-a.link {
+a {
     color: #781256; /* purple color */
     font-size: 20px;
     text-shadow: 2px 2px 4px #f8d5f4eb;
