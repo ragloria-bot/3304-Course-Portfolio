@@ -94,9 +94,6 @@ li {
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
-li::marker {
-  text-align: center;
-}
 
 header {
   text-align: center;
