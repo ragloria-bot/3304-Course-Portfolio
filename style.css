@@ -68,6 +68,7 @@ ul {
   border: none;
   margin-left: 100px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
+  text-align: left;
 }
 
 li {
