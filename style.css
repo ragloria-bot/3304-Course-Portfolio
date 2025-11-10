@@ -65,7 +65,7 @@ ul {
   line-height: 30px;
   font-weight: normal;
   color: #781256;
-  border: 0x solid #f7d9ed; /* Sets a 5px solid light pink border */
+  border: none;
   margin-left: 100px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
@@ -75,7 +75,7 @@ li {
   line-height: 26px;
   font-weight: normal;
   color: #781256;
-  border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  border: none;
   text-shadow: 2px 2px 4px #f8d5f4eb;;
   margin: 20px 0;
 }
