@@ -72,12 +72,10 @@ h4 {
 a {
   text-align: center;
   font-size: 20px;
-  line-height: 5;
   font-weight: normal;
   color: #781256;
   text-decoration: none; /* Removes underline from links */
   border: 10px solid #f993d7; /* Sets a 5px solid light pink border */
-  padding: 20px; /* Adds space between the text and the border */
   margin: 20px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
@@ -113,8 +111,6 @@ li {
   color: #781256;
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
   padding: 10px; /* Adds space between the text and the border */
-  margin-left: 0px;
-  margin-right: 0px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
