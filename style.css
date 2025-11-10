@@ -170,3 +170,7 @@ main {
   padding: 30px;
   margin: 200px;
 }
+/* Media query for screens at least 480px wide */
+@media screen and (min-width: 480px) {
+  /* Add styles here that apply to screens 480px and wider */
+}
