@@ -9,7 +9,7 @@ color: #781256;
 
 p {
   margin: 10px 0;
-  padding: 30px;
+  padding: 1.0em;
   font-size: 30px;
   line-height: 31px;
   font-weight: normal;
@@ -23,7 +23,7 @@ h1 {
   line-height: 71px;
   font-weight: bold;
   color: #781256;
-  border: 10px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  border: .62em solid #f7d9ed; /* Sets a 5px solid light pink border */
   text-shadow: 2px 2px 4px #f8d5f4eb;
   margin: 80px;
 }
@@ -33,7 +33,7 @@ h2 {
   line-height: 36px;
   font-weight: bold;
   color: #781256;
-  border: 10px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  border: .62em solid #f7d9ed; /* Sets a 5px solid light pink border */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
@@ -44,7 +44,7 @@ h3 {
   line-height: 26px;
   font-weight: bold;
   color: #781256;
-  border: 3px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  border: .20em solid #f7d9ed; /* Sets a 5px solid light pink border */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
@@ -55,7 +55,7 @@ h4 {
   line-height: 21px;
   font-weight: bold;
   color: #781256;
-  border: 3px solid #f993d7; /* Sets a 5px solid light pink border */
+  border: .20em solid #f993d7; /* Sets a 5px solid light pink border */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
 }
@@ -88,7 +88,7 @@ header {
   color: #781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
+  padding: 1.0em; /* Adds space between the text and the border */
   margin-bottom: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
   margin: 200px
@@ -108,11 +108,11 @@ nav.link {
   font-weight: normal;
   color: #781256;
   text-decoration: bold; /* Removes underline from links */
-  border: 2px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  border: .20em solid #f7d9ed; /* Sets a 5px solid light pink border */
   border-radius: 10px;
   margin-bottom: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
-  padding: 9px 5px;
+  padding: .56em .31em;
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -123,7 +123,7 @@ footer {
   color: #781256;
   text-decoration: bold; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
-  border: 10px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  border: .62em solid #f7d9ed; /* Sets a 5px solid light pink border */
   margin-top: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
   margin: 200px;
@@ -134,7 +134,7 @@ image {
   line-height: 17px;
   font-weight: normal;
   color: #591241;
-  border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  border: .31em solid #f7d9ed; /* Sets a 5px solid light pink border */
   margin-top: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
   background-position: fixed;
@@ -165,7 +165,7 @@ a:hover {
 }
 main {
   background-color: #ff44c1;
-  padding: 30px;
+  padding: 1.8em;
   margin: 200px;
 }
 /* Media query for screens at least 480px wide */
