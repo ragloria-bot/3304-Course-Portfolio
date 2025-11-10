@@ -15,7 +15,6 @@ p {
   font-weight: normal;
   color: #781256;
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
 }
 
 h1 {
@@ -25,7 +24,6 @@ h1 {
   font-weight: bold;
   color: #781256;
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   text-shadow: 2px 2px 4px #f8d5f4eb;
   margin: 80px;
@@ -37,7 +35,6 @@ h2 {
   font-weight: bold;
   color: #781256;
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
@@ -50,7 +47,6 @@ h3 {
   font-weight: bold;
   color: #781256;
   border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
@@ -63,7 +59,6 @@ h4 {
   font-weight: bold;
   color: #781256;
   border: 5px solid #f993d7; /* Sets a 5px solid light pink border */
-  padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   text-decoration: underline; /* Underlines the text */
   margin: 80px;
@@ -75,7 +70,6 @@ ul {
   font-weight: normal;
   color: #781256;
   border: 0x solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
   margin-left: 100px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
@@ -87,7 +81,6 @@ ol {
   font-weight: normal;
   color: #781256;
   border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 10px; /* Adds space between the text and the border */
   margin-left: 100px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
@@ -99,7 +92,6 @@ li {
   font-weight: normal;
   color: #781256;
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 10px; /* Adds space between the text and the border */
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 li::marker {
@@ -114,7 +106,7 @@ header {
   color: #781256;
   background-color: #ff44c1; /* Sets the background color */
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 40px; /* Adds space between the text and the border */
+  padding: 30px; /* Adds space between the text and the border */
   margin-bottom: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
@@ -125,7 +117,6 @@ nav {
   color: #781256;
   text-decoration: bold; /* Removes underline from links */
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 20px; /* Adds space between the text and the border */
   margin-bottom: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
@@ -138,7 +129,6 @@ footer {
   text-decoration: bold; /* Removes underline from links */
   background-color: #ff44c1; /* Sets the background color */
   border: 20px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 10px; /* Adds space between the text and the border */
   text-align: center; /* Centers the text within the heading */
   margin-top: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
@@ -150,7 +140,6 @@ image {
   font-weight: normal;
   color: #591241;
   border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 10px; /* Adds space between the text and the border */ 
   margin-top: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
   background-position: fixed;
@@ -161,7 +150,6 @@ section {
   font-weight: normal;
   color: #781256;
   border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-  padding: 30px; /* Adds space between the text and the border */
   margin-top: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
   text-align: center;
@@ -177,4 +165,5 @@ a:hover {
 }
 main {
   background-color: #ff44c1;
+  padding: 30px;
 }
