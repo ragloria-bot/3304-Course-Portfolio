@@ -164,8 +164,6 @@ a:hover {
     text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 main {
-  max-width: 1200px;
-  width: 90%;
   background-color: #ff44c1;
   padding: 30px;
   margin: 200px;
