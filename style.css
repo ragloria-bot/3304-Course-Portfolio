@@ -98,7 +98,7 @@ nav {
   font-weight: normal;
   color: #781256;
   text-decoration: bold; /* Removes underline from links */
-  border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
+  border: 2px solid #f7d9ed; /* Sets a 5px solid light pink border */
   margin-bottom: 50px;
   text-shadow: 2px 2px 4px #f8d5f4eb;
 }
@@ -140,7 +140,6 @@ a {
     font-size: 20px;
     text-shadow: 2px 2px 4px #f8d5f4eb;
     transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* smooth transition */
-    border: 2px solid #f7d9ed; /* Sets a 5px solid light pink border */
 }
 a:hover {
     text-decoration: underline; /* underline on hover */
