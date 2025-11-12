@@ -88,10 +88,10 @@ button {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .button-03 {
-    background-color: #ff5733;
-    color: #ffffff;
+    background-color: #7de819;
+    color: #000000;
     padding: 16px 32px;
-    border: 2px solid #ff5733;
+    border: 2px solid #7de819;
     position: relative;
     overflow: hidden;
     transition: color 0.3s ease, transform 0.3s ease;
@@ -108,7 +108,7 @@ button {
     z-index: -1; /* Place behind the button text */         
 }
 .button-03:hover {
-    color: #8b240d;
+    color: #b13317;
 }
 .button-03:hover::before {
     left: 0; /* Slide in the background from the right */
