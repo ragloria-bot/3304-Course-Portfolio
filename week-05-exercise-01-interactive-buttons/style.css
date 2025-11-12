@@ -1,3 +1,53 @@
+:root{
+    /* Color Palette */
+    --primary-color: #1F2937;
+    --secondary-color: #6B7280;
+    --background-color: #FAFAFA;
+    --accent-color: #3B82F6;
+    --primary-hover-color: #ffffff;
+
+    /* Typography */
+    --font-family: "Times New Roman", serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.5;
+    --font-size-large: 24px;
+    --font-size-small: 14px;
+    --font-size-heading: 48px;
+
+    /* Spacing */
+    --spacing-base: 16px;
+    --spacing-large: 32px;
+    --spacing-small: 8px;
+
+    /* Button Colors */
+    --button-01-bg-default: #0066CC;
+    --button-01-bg-hover: #ffffff;
+    --button-02-bg-default: #0e6027;
+    --button-02-bg-hover: #0e6027;
+    --button-03-bg-default: #72ecb3;
+    --button-03-bg-hover: #0056b3;
+    --button-04-bg-default: #8e44ad;
+    --button-04-glow-color: rgba(0, 255, 255, 0.8);
+    --button-05-bg-default: #ae277c;
+    --button-05-bg-hover: #ffffff;
+    --button-06-bg-default: #f39c12;
+    --button-06-bg-hover: #f39c12;
+}
+.button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;    
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    transition: background-color 0.3s ease, color 0.3s ease
+}
+.button:hover {
+    background-color: #ffffff;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +55,12 @@
 }
 
 body {
-    font-family: "Times New Roman", serif;
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
     line-height: 2;
-    background-color: #fafafa;
-    color: #1F2937;
-    padding: 32px 16px;
+    background-color: var(--background-color);
+    --primary-color: #1F2937;
+    padding: var(--spacing-base) var(--spacing-large)
 }
 
 .container {
@@ -21,7 +72,7 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: var(--font-size-heading);
     line-height: 1em;
     font-weight: normal;
     text-align: center;
@@ -30,13 +81,13 @@ h1 {
 
 .subtitle {
     text-align: center;
-    font-size: 16px;
+    font-size: var(--font-size-base);
     color: #6B7280;
     margin-bottom: 32px;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: var(--font-size-large);
     font-weight: normal;
     border-bottom: 1px solid rgba(0, 0, 0, 1);
     padding-bottom: 8px;
@@ -44,42 +95,42 @@ h2 {
 }
 
 .button-section {
-    padding: 32px;
-    background-color: #ffffff;
+    padding: var(--spacing-large);
+    background-color: var(--background-color);
     border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .button-section p {
-    font-size: 16px;
+    font-size: var(--font-size-base);
     margin-bottom: 24px;
 }
 
 button {
-    font-family: "Times New Roman", serif;
-    font-size: 16px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
     cursor: pointer;
     border-radius: 0;
 }
 
 .button-01 {
-    background-color: #0066CC;
-    color: #ffffff;
-    padding: 16px 32px;
-    border: 2px solid #0066CC;
+    background-color: var(--button-01-bg-default);
+    color: var(--button-01-color);
+    padding: var(--spacing-base) var(--spacing-large);
+    border: 2px solid var(--button-01-bg-default);
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 .button-01:hover {
-    background-color: #ffffff;
-    color: #0066CC;
-    border-color: #0066CC;
+    background-color: var(--button-01-bg-hover);
+    color: var(--button-01-bg-default);
+    border-color: var(--button-01-bg-default);
 }
 
 .button-02 {
-    background-color: #0e6027;
-    color: #ffffff;
-    padding: 16px 32px;
-    border: 2px solid #0e6027;
+    background-color: var(--button-02-bg-default);
+    color: var() #ffffff;
+    padding: var(--spacing-base) var(--spacing-large);
+    border: 2px solid var(--button-02-bg-default);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -89,12 +140,12 @@ button {
 }
 .button-03 {
   /* Basic button styling */
-  padding: 16px 32px;
-  font-size: 16px;
+  padding: var(--spacing-base) var(--spacing-large);
+  font-size: var(--font-size-base);
   font-weight: bold;
   color: rgb(22, 22, 22);
-  background-color: #72ecb3; /* Default background */
-  border: 2px solid #72ecb3;
+  background-color: var(--button-03-bg-default); /* Default background */
+  border: 2px solid var(--button-03-bg-default);
   position: relative; /* Needed for positioning pseudo-element */
   overflow: hidden; /* Hides the sliding background initially */
   z-index: 1; /* Ensures text is above sliding background */
@@ -107,7 +158,7 @@ button {
   left: -100%; /* Start off-screen to the left */
   width: 100%;
   height: 100%;
-  background-color: #0056b3; /* Hover background color */
+  background-color: var(--button-03-bg-hover); /* Hover background color */
   transition: left 0.4s ease; /* Transition for sliding effect */
   z-index: -1; /* Places background behind text */
 }
@@ -121,10 +172,10 @@ button {
 }
 
 .button-04 {
-    background-color: #8e44ad;
+    background-color: var(--button-04-bg-default);
     color: #ffffff;
-    padding: 16px 32px;
-    border: 2px solid #8e44ad;
+    padding: var(--spacing-base) var(--spacing-large);
+    border: 2px solid var(--button-04-bg-default);
     box-shadow: 0 0 10px rgba(142, 68, 173, 0.5);
     transition: box-shadow 0.3s ease-in-out;
 }
@@ -132,24 +183,24 @@ button {
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Cyan glow */
 }
 .button-05 {
-    background-color: #ae277c;  
-    color: #ffffff;
-    padding: 16px 32px;
-    border: 2px solid #ae277c;
+    background-color: var(--button-05-bg-default);  
+    color: var(--primary-hover-color) #ffffff;
+    padding: var(--spacing-base) var(--spacing-large);
+    border: 2px solid var(--button-05-bg-default);
     transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 .button-05:hover {
-    background-color: #ffffff;
+    background-color: var(--primary-hover-color);
     color: #150710;
-    border-color: #ae277c;
+    border-color: var(--button-05-bg-default);
     box-shadow: 0 4px 15px rgba(174, 39, 124, 0.6); /* Pink shadow */
     transform: translateY(-2px); /* Slightly lift the button */
 }
 .button-06 {
-    background-color: #f39c12;
-    color: #ffffff;
-    padding: 16px 32px;
-    border: 2px solid #f39c12;
+    background-color: var(--button-06-bg-default);
+    color: var(--primary-hover-color);
+    padding: var(--spacing-base) var(--spacing-large);
+    border: 2px solid var(--button-06-bg-default);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .button-06:hover {
