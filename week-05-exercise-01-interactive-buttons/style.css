@@ -96,6 +96,54 @@ button {
     overflow: hidden;
     transition: color 0.3s ease, transform 0.3s ease;
 }
+.button-03::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transition: left 0.3s ease;
+    z-index: 0;         
+}
 .button-03:hover {
     color: #ff5733;
+}
+.button-03:hover::before {
+    left: 0;
+}
+.button-04 {
+    background-color: #8e44ad;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #8e44ad;
+    box-shadow: 0 0 10px rgba(142, 68, 173, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+.button-04:hover {
+    box-shadow: 0 0 20px rgba(142, 68, 173, 1);
+}
+.button-05 {
+    background-color: #ae277c;  
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #ae277c;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.button-05:hover {
+    background-color: #ffffff;
+    color: #ae277c;
+    border-color: #ae277c;
+}
+.button-06 {
+    background-color: #f39c12;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #f39c12;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.button-06:hover {
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
