@@ -129,12 +129,14 @@ button {
     color: #ffffff;
     padding: 16px 32px;
     border: 2px solid #ae277c;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 .button-05:hover {
     background-color: #ffffff;
-    color: #ae277c;
+    color: #150710;
     border-color: #ae277c;
+    box-shadow: 0 4px 15px rgba(174, 39, 124, 0.6); /* Pink shadow */
+    transform: translateY(-2px); /* Slightly lift the button */
 }
 .button-06 {
     background-color: #f39c12;
