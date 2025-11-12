@@ -105,7 +105,7 @@ button {
     height: 100%;
     background-color: #7de819;
     transition: left 0.3s ease; /* Smooth transition for the sliding effect */
-    z-index: -1; /* Place behind the button text */         
+    z-index: 0; /* Place behind the button text */         
 }
 .button-03:hover {
     color: #b13317;
