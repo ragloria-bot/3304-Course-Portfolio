@@ -119,10 +119,10 @@ button {
     padding: 16px 32px;
     border: 2px solid #8e44ad;
     box-shadow: 0 0 10px rgba(142, 68, 173, 0.5);
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease-in-out;
 }
 .button-04:hover {
-    box-shadow: 0 0 20px rgba(142, 68, 173, 1);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Cyan glow */
 }
 .button-05 {
     background-color: #ae277c;  
