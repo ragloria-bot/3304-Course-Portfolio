@@ -7,7 +7,7 @@
   --accent-color: #026064;
   
   /* Typography */
-  --font-main: "Times New Roman", serif;
+  --font-main: "Arial", sans-serif;
   --font-size-base: 18px;
   --font-size-large: 30px;
   --font-size-heading: 48px;
@@ -153,6 +153,7 @@ main>p {
     margin-bottom: 0;
 }
 .homepage-button {
+  font-family: var(--font-main);
   background-color: #e893d3;
   border: var(--primary-color) 2px solid;
   color: rgb(13, 13, 13);
