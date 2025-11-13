@@ -17,21 +17,9 @@
   --spacing-medium: 16px;
   --spacing-large: 32px;
 }
-
-.homepage-button {
-  background-color: var(--primary-color);
-  color: var(--background-color);
-  font-family: var(--font-main);
-  padding: var(--spacing-medium) var(--spacing-large);
-  transition: background-color 0.3s ease;
-}
-
-.homepage-button:hover {
-  background-color: var(--primary-hover-color);
-}
 * {
-  margin: 0;
-  padding: 0;
+  margin: 2;
+  padding: 5;
   box-sizing: border-box;
 }
 body {
