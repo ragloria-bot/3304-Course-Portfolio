@@ -149,7 +149,7 @@ main>p {
 .homepage-button {
   background-color: var(--primary-hover-color);
   border: var(--accent-color);
-  color: white;
+  color: rgb(13, 13, 13);
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
