@@ -44,6 +44,8 @@ p {
 }
 a {
   display: inline-block;
+  border: #e893d3 2px solid;
+  border-radius: 5px;
   color: #0d0d0d;
   text-decoration: none;
 }
