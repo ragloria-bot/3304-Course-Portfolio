@@ -137,12 +137,12 @@ main>p {
 }
 .collection-card p.details {
     font-size: 14px;
-    color: #888888;
+    color: #232121;
     margin-bottom: 12px;
 }
 .collection-card p.description {
     font-size: 14px;
-    color: #333333;
+    color: #0d0d0d;
     line-height: 1.4;
     margin-bottom: 0;
 }
