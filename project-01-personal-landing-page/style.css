@@ -1,10 +1,10 @@
 :root {
   /* Color Palette */
-  --primary-color: #0066CC;
-  --primary-hover-color: #004499;
+  --primary-color: #cc0099;
+  --primary-hover-color: #74c9d4;
   --text-color: #333333;
-  --background-color: #FFFFFF;
-  --accent-color: #CC0000;
+  --background-color: #ecdde9;
+  --accent-color: #026064;
   
   /* Typography */
   --font-main: "Times New Roman", serif;
@@ -109,12 +109,13 @@ main>p {
     gap: 20px; /* Adjust this value for desired spacing between cards */
 }
 .collection-card {
-    border: 3px solid rgba(3, 122, 124, 0.25);
-    background-color: #aaeff3;
+    border: 3px solid rgba(142, 34, 109, 0.25);
+    background-color: #cc0099;
     padding: 16px;
       /* ... other styles for collection-card ... */
    flex: 1 1 300px; /* flex-grow, flex-shrink, flex-basis */
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 3px;
 }
 .collection-card img {
     width: 100%;
@@ -144,8 +145,8 @@ main>p {
     margin-bottom: 0;
 }
 .homepage-button {
-  background-color: #008CBA; /* Blue */
-  border: none;
+  background-color: var(--primary-hover-color);
+  border: var(--accent-color);
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -159,7 +160,7 @@ main>p {
 }
 
 .homepage-button:hover {
-  background-color: #005f7a; /* Darker blue on hover */
+  background-color: var(--primary-color)
 }
 
 /* Media query for screens at least 480px wide */
