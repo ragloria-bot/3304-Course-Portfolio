@@ -69,6 +69,43 @@ main {
 section {
   margin-bottom: var(--spacing-large);
 }
+/* 1. Reset default list styles */
+nav ul {
+    list-style-type: none; /* Removes the bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Arranges the list items horizontally */
+    justify-content: center; /* Centers the buttons within the nav */
+    background-color: #333; /* Optional: A background for the nav container */
+}
+
+/* 2. Style the individual list items */
+nav li {
+    margin: 0 10px; /* Adds space between the buttons */
+}
+
+/* 3. Style the links (the actual "buttons") */
+nav a {
+    display: block; /* Important: makes the entire link area clickable and styleable */
+    padding: 10px 20px; /* Gives the button shape and size */
+    background-color: #007BFF; /* Button background color (blue) */
+    color: white; /* Text color */
+    text-decoration: none; /* Removes the default underlines from links */
+    border-radius: 5px; /* Optional: Rounded corners */
+    text-align: center; /* Centers text within the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    cursor: pointer; /* Ensures the cursor shows a pointer hand */
+}
+
+/* 4. Add hover effects for interactivity */
+nav a:hover {
+    background-color: #0056b3; /* Darker blue when the mouse hovers over it */
+}
+
+/* 5. Style the active/current link */
+nav a.active {
+    background-color: #ff5733; /* A different color for the currently active page/section */
+}
 
 main>p {
     margin-bottom: 32px;
@@ -124,12 +161,7 @@ main>p {
     .button:hover {
         background-color: darken(var(--primary-color), 10%); /* Example with a darker shade */
     }
-    .nav-link {
-        transition: color 0.3s ease;
-    }
-    .nav-link:hover {
-        color: var(--primary-color);
-    }
+    
 
 /* Media query for screens at least 480px wide */
 @media screen and (min-width: 480px) {
