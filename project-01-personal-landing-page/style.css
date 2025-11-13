@@ -43,6 +43,7 @@ p {
   margin-bottom: var(--spacing-medium);
 }
 a {
+  display: inline-block;
   color: #0d0d0d;
   text-decoration: none;
 }
