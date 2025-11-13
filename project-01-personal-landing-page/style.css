@@ -76,7 +76,7 @@ nav li {
 nav a {
     display: block; /* Important: makes the entire link area clickable and styleable */
     padding: 10px 20px; /* Gives the button shape and size */
-    background-color: #007BFF; /* Button background color (blue) */
+    background-color: #f2a6dc; /* Button background color (blue) */
     color: white; /* Text color */
     text-decoration: none; /* Removes the default underlines from links */
     border-radius: 5px; /* Optional: Rounded corners */
