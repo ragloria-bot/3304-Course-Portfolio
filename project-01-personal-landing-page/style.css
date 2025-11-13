@@ -18,7 +18,7 @@
   --spacing-large: 32px;
 }
 
-.button {
+.homepage-button {
   background-color: var(--primary-color);
   color: var(--background-color);
   font-family: var(--font-main);
@@ -26,7 +26,7 @@
   transition: background-color 0.3s ease;
 }
 
-.button:hover {
+.homepage-button:hover {
   background-color: var(--primary-hover-color);
 }
 * {
@@ -155,13 +155,24 @@ main>p {
     line-height: 1.4;
     margin-bottom: 0;
 }
- .button {
-        transition: background-color 0.3s ease;
-    }
-    .button:hover {
-        background-color: darken(var(--primary-color), 10%); /* Example with a darker shade */
-    }
-    
+.homepage-button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.homepage-button:hover {
+  background-color: #005f7a; /* Darker blue on hover */
+}
 
 /* Media query for screens at least 480px wide */
 @media screen and (min-width: 480px) {
