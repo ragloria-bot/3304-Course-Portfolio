@@ -45,11 +45,11 @@ p {
 a {
   color: #0d0d0d;
   text-decoration: none;
-  transition: all 0.3s ease;
 }
 a:hover {
   text-decoration: underline;
-  color: var(--primary-hover-color);
+  transition: all 0.3s ease;
+  background-color: var(--primary-hover-color);
 }
 header, footer {
   background-color: var(--primary-color);
