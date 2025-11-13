@@ -1,7 +1,7 @@
 :root {
   /* Color Palette */
   --primary-color: #cc0099;
-  --primary-hover-color: #74c9d4;
+  --primary-hover-color: #f2a6dc;
   --text-color: #333333;
   --background-color: #ecdde9;
   --accent-color: #0b0b0b;
@@ -82,7 +82,7 @@ nav li {
 nav a {
     display: block; /* Important: makes the entire link area clickable and styleable */
     padding: 10px 20px; /* Gives the button shape and size */
-    background-color: #f2a6dc; /* Button background color (blue) */
+    background-color: var(--primary-hover-color); /* Button background color (pink) */
     color: white; /* Text color */
     text-decoration: none; /* Removes the default underlines from links */
     border-radius: 5px; /* Optional: Rounded corners */
@@ -93,14 +93,9 @@ nav a {
 
 /* 4. Add hover effects for interactivity */
 nav a:hover {
-    background-color: var(--primary-color); /* Darker blue when the mouse hovers over it */
+    background-color: var(--primary-color); /* Darker pink when the mouse hovers over it */
     box-shadow: 0 4px 15px rgba(240, 235, 238, 0.6); /* Pink shadow */
     transform: translateY(-2px); /* Slight lift effect */
-}
-
-/* 5. Style the active/current link */
-nav a.active {
-    background-color: var(--primary-hover-color) /* A different color for the currently active page/section */
 }
 
 main>p {
