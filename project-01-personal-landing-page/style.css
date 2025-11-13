@@ -1,0 +1,152 @@
+:root {
+  /* Color Palette */
+  --primary-color: #0066CC;
+  --primary-hover-color: #004499;
+  --text-color: #333333;
+  --background-color: #FFFFFF;
+  --accent-color: #CC0000;
+  
+  /* Typography */
+  --font-main: "Times New Roman", serif;
+  --font-size-base: 16px;
+  --font-size-large: 24px;
+  --font-size-heading: 48px;
+  
+  /* Spacing */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 32px;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  font-family: var(--font-main);
+  padding: var(--spacing-medium) var(--spacing-large);
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--primary-hover-color);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-main);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-medium);
+}
+p {
+  margin-bottom: var(--spacing-medium);
+}
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+header, footer {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: var(--spacing-medium);
+  text-align: center;
+}
+main {
+  padding: var(--spacing-large);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+section {
+  margin-bottom: var(--spacing-large);
+}
+
+main>p {
+    margin-bottom: 32px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.collection-grid {
+    margin: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust this value for desired spacing between cards */
+}
+.collection-card {
+    border: 3px solid rgba(3, 122, 124, 0.25);
+    background-color: #aaeff3;
+    padding: 16px;
+      /* ... other styles for collection-card ... */
+   flex: 1 1 300px; /* flex-grow, flex-shrink, flex-basis */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.collection-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin-bottom: 16px;
+}
+.collection-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.collection-card p {
+    font-size: 16px;
+    color: #555555;
+}
+.collection-card p.details {
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 12px;
+}
+.collection-card p.description {
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+ .button {
+        transition: background-color 0.3s ease;
+    }
+    .button:hover {
+        background-color: darken(var(--primary-color), 10%); /* Example with a darker shade */
+    }
+    .nav-link {
+        transition: color 0.3s ease;
+    }
+    .nav-link:hover {
+        color: var(--primary-color);
+    }
+
+/* Media query for screens at least 480px wide */
+@media screen and (min-width: 480px) {
+  /* Add styles here that apply to screens 480px and wider */
+}
+
+/* Media query for screens at least 1024px wide */
+@media screen and (min-width: 1024px) {
+  /* Adjust .collection-card flex-basis for a three-column layout */
+  .collection-card {
+    flex-basis: calc(30% - 20px); /* Adjust for desired spacing, e.g., 20px gap */
+  }
+}
+/* Media query for screens at least 768px wide */
+@media screen and (min-width: 768px) {
+  /* Adjust .collection-card flex-basis for a two-column layout */
+  .collection-card {
+    flex-basis: calc(40% - 20px); /* Adjust for desired spacing, e.g., 20px gap */
+  }
+}
