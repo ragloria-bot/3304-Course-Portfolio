@@ -77,13 +77,6 @@ code {
   left:2px;
   top: 32px;
   width: 150px;
-  background-color: #f4a1f4;
-  padding: 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  position: relative;
-  z-index: 0;
-  overflow: visible;
 }
 
 .nav-simple ul {
@@ -91,10 +84,6 @@ code {
   margin: 0;
   text-align: center;
   padding: 0;
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  position: relative;
 }
 
 .nav-simple li {
@@ -106,30 +95,18 @@ code {
   padding: 8px 16px;
   color: #4a094d;
   text-decoration: none;
+  position: relative; /* Needed for the ::before pseudo-element */
   overflow: hidden; /* Ensures the sliding background doesn't overflow */
   border: 2px solid #781256;
   border-radius: 4px;
-}
-.nav-simple::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%; /* Start off-screen to the left */
-  width: 100%;
-  height: 100%;
-  background-color: #4dece4c7; /* Hover background color */
-  transition: left 0.4s ease; /* Transition for sliding effect */
-  z-index: -1; /* Places background behind text */
+  box-sizing: border-box;
 }
 
-.nav-simple:hover::before {
-  left: 0; /* Slides the background into view */
-}
 .nav-simple a:hover {
   background-color: #088f8f;
   color: #64f3d6;
   transition: background-color 0.3s ease, color 0.3s ease;
-  border-radius: 8px;
+  border-radius: 15px ;
 }
 
 .nav-simple+main {
