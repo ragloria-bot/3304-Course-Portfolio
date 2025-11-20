@@ -74,9 +74,9 @@ code {
 
 .nav-simple {
   position: fixed;
-  left: 32px;
+  left:2px;
   top: 32px;
-  width: 200px;
+  width: 150px;
 }
 
 .nav-simple ul {
@@ -86,7 +86,7 @@ code {
 }
 
 .nav-simple li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .nav-simple a {
@@ -160,8 +160,8 @@ code {
   bottom: 32px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #222222;
-  padding: 8px 16px;
+  background-color: #7ca2fafe;
+  padding: 8px 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -181,10 +181,14 @@ code {
 .nav-custom a {
   display: block;
   padding: 8px 12px;
-  color: #f309d0;
+  color: #c50faa;
   text-decoration: none;
+  border: 2px solid #f309d0;
+  border-radius: 4px;
+  box-sizing: border-box;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+ 
 
 .nav-custom a:hover {
  background-color: aqua;
@@ -198,16 +202,16 @@ code {
   top: 32px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #333333;
+  background-color: #f4e72e94;
+  border: 2px solid #f7e923a8;
   padding: 10px 0px;
   border-radius: 8px;
-  list-style: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .nav-centered ul {
   display: flex;
-  justify-content: space-between;
   list-style: none;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -218,9 +222,14 @@ code {
 .nav-centered a {
   display: block;
   padding: 8px 16px;
-  color: #ffffff;
+  color: #760d69;
   margin: 0 4px;
-  border-radius: 4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 2px solid #fded07f2;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-style: dotted;
   text-decoration: underline;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
