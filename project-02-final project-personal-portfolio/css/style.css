@@ -1,0 +1,201 @@
+:root {
+  /* Color Palette */
+  --primary-color: #cc0099;
+  --primary-hover-color: #f2a6dc;
+  --text-color: #333333;
+  --background-color: #ecdde9;
+  --accent-color: #0b0b0b;
+  
+  /* Typography */
+  --font-main: "Arial", sans-serif;
+  --font-size-base: 18px;
+  --font-size-large: 30px;
+  --font-size-heading: 48px;
+  
+  /* Spacing */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 32px;
+}
+* {
+  margin: 2;
+  padding: 5;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-main);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+h1 {
+    font-size: var(--font-size-heading);
+    text-align: center;
+    margin-bottom: var(--spacing-large);
+    color: var(--text-color);
+}
+h2 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-medium);
+}
+p {
+  margin-bottom: var(--spacing-medium);
+}
+a {
+  display: inline-block;
+  color: #0d0d0d;
+  text-decoration: none;
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--background-color);
+  background-color: var(--primary-hover-color);
+}
+header, footer {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: var(--spacing-medium);
+  text-align: center;
+}
+main {
+  padding: var(--spacing-large);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+section {
+  margin-bottom: var(--spacing-large);
+}
+/* 1. Reset default list styles */
+nav ul {
+    list-style-type: none; /* Removes the bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Arranges the list items horizontally */
+    justify-content: center; /* Centers the buttons within the nav */
+    background-color: #333; /* Optional: A background for the nav container */
+}
+
+/* 2. Style the individual list items */
+nav li {
+    margin: 0 10px; /* Adds space between the buttons */
+}
+
+/* 3. Style the links (the actual "buttons") */
+nav a {
+    display: block; /* Important: makes the entire link area clickable and styleable */
+    padding: 10px 20px; /* Gives the button shape and size */
+    background-color: var(--primary-hover-color); /* Button background color (pink) */
+    color: white; /* Text color */
+    text-decoration: none; /* Removes the default underlines from links */
+    border-radius: 5px; /* Optional: Rounded corners */
+    text-align: center; /* Centers text within the button */
+    cursor: pointer; /* Ensures the cursor shows a pointer hand */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+/* 4. Add hover effects for interactivity */
+nav a:hover {
+    background-color: var(--primary-color); /* Darker pink when the mouse hovers over it */
+    box-shadow: 0 4px 15px rgba(240, 235, 238, 0.6); /* Pink shadow */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+main>p {
+    margin-bottom: 32px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.collection-grid {
+    margin: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust this value for desired spacing between cards */
+}
+.collection-card {
+    border: 3px solid rgba(142, 34, 109, 0.25);
+    background-color: #e893d3;
+    padding: 16px;
+      /* ... other styles for collection-card ... */
+   flex: 1 1 300px; /* flex-grow, flex-shrink, flex-basis */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 3px;
+}
+.collection-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin-bottom: 16px;
+}
+.collection-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.collection-card p {
+    font-size: 16px;
+    color: #555555;
+}
+.collection-card p.details {
+    font-size: 14px;
+    color: #413c3c;
+    margin-bottom: 12px;
+}
+.collection-card p.description {
+    font-size: 14px;
+    color: #0d0d0d;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+.collection-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.homepage-button {
+  font-family: var(--font-main);
+  background-color: #e893d3;
+  border: var(--primary-color) 2px solid;
+  color: rgb(13, 13, 13);
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  margin: 20px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.homepage-button:hover {
+  transform: rotate(5deg) scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Media query for screens at least 480px wide */
+@media screen and (min-width: 480px) {
+  /* Add styles here that apply to screens 480px and wider */
+}
+
+/* Media query for screens at least 1024px wide */
+@media screen and (min-width: 1024px) {
+  /* Adjust .collection-card flex-basis for a three-column layout */
+  .collection-card {
+    flex-basis: calc(30% - 20px); /* Adjust for desired spacing, e.g., 20px gap */
+  }
+}
+/* Media query for screens at least 768px wide */
+@media screen and (min-width: 768px) {
+  /* Adjust .collection-card flex-basis for a two-column layout */
+  .collection-card {
+    flex-basis: calc(40% - 20px); /* Adjust for desired spacing, e.g., 20px gap */
+  }
+}
