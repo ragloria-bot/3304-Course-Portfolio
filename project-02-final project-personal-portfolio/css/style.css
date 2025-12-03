@@ -38,6 +38,8 @@ h1 {
 h2 {
   color: var(--primary-color);
   margin-bottom: var(--spacing-medium);
+  text-align: justify;
+  
 }
 p {
   margin-bottom: var(--spacing-medium);
