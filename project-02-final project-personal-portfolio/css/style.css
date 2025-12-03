@@ -180,25 +180,6 @@ main>p {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.project-button {
-  font-family: var(--font-main);
-  background-color: #e893d3;
-  border: var(--primary-color) 2px solid;
-  color: rgb(13, 13, 13);
-  padding: 10px 20px;
-  text-align: center;
-  display: inline-block;
-  font-size: 18px;
-  margin: 20px 5px;
-  cursor: pointer;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.project-button:hover {
-  transform: rotate(-5deg) scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
 
 /* Media query for screens at least 480px wide */
 @media screen and (min-width: 480px) {
