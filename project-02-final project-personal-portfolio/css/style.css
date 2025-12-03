@@ -41,6 +41,8 @@ h2 {
 }
 p {
   margin-bottom: var(--spacing-medium);
+  text-align: left;
+  max-width: 800px;
 }
 a {
   display: inline-block;
