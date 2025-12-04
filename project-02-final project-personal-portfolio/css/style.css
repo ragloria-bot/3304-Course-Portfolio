@@ -43,6 +43,7 @@ h2 {
 
 p {
   margin-bottom: var(--spacing-medium);
+  text-wrap: justify;
 } 
 
 a {
