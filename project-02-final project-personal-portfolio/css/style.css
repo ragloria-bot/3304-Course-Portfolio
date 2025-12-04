@@ -73,6 +73,7 @@ header .logo {
     width: 100px;
     height: auto;
     position: absolute;
+    display: flex;
     top: 10%;
     left: 50px;
     margin-left: 10px;
