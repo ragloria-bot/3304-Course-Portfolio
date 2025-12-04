@@ -61,7 +61,7 @@ a:hover {
 header, footer {
   background-color: var(--primary-color);
   color: var(--background-color);
-  padding: var(--spacing-small);
+  padding: var(--spacing-large);
   text-align: center;
 }
 main {
@@ -111,7 +111,6 @@ main>p {
     margin-bottom: 32px;
     text-align: justify;
     max-width: 800px;
-    margin-left: auto;
     margin-right: auto;
 }
 .collection-grid {
