@@ -41,11 +41,6 @@ h2 {
   text-align: justify; 
 }
 
-p {
-  margin-bottom: var(--spacing-medium);
-  text-wrap: justify;
-} 
-
 a {
   display: inline-block;
   color: #0d0d0d;
