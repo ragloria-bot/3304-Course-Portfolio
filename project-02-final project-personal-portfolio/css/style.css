@@ -64,6 +64,16 @@ header, footer {
   padding: var(--spacing-large);
   text-align: center;
 }
+
+header .logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 10px;
+    margin-left: 10px;
+    transform: translateY(-50%);
+}
 main {
   padding: var(--spacing-large);
   max-width: 1200px;
