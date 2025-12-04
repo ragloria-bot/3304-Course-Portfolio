@@ -69,10 +69,10 @@ header .logo {
     width: 100px;
     height: auto;
     position: absolute;
-    top: 20%;
-    left: 10px;
+    top: 10%;
+    left: 50px;
     margin-left: 10px;
-    transform: translateY(-50%);
+    transform: translateY(-30%);
 }
 header .logo:hover {
     transition: transform 0.3s ease;
