@@ -52,8 +52,8 @@ a {
   padding: var(--spacing-small);
   border-radius: 5px;
   transition: all 0.3s ease;
-
 }
+
 a:hover {
   text-decoration: underline;
   color: var(--background-color);
@@ -81,6 +81,7 @@ header .logo {
 header .logo:hover {
     transition: transform 0.3s ease;
     transform: translateY(-50%) scale(1.1); 
+
 }
 .header-divider {
      margin: 20px 0;
@@ -88,7 +89,6 @@ header .logo:hover {
     flex-wrap: wrap-reverse;
     gap: 20px; /* Adjust this value for desired spacing between cards */
     border-bottom: 2px solid var(--background-color);
-
   }
 
 main {
@@ -96,9 +96,11 @@ main {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 section {
   margin-bottom: var(--spacing-large);
 }
+
 /* 1. Reset default list styles */
 nav ul {
     list-style-type: none; /* Removes the bullet points */
@@ -140,12 +142,14 @@ main>p {
     max-width: 800px;
     margin-right: auto;
 }
+
 .collection-grid {
     margin: 48px 0;
     display: flex;
     flex-wrap: wrap;
     gap: 20px; /* Adjust this value for desired spacing between cards */
 }
+
 .collection-card {
     border: 3px solid rgba(142, 34, 109, 0.25);
     background-color: #e893d3;
@@ -155,6 +159,7 @@ main>p {
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    border-radius: 3px;
 }
+
 .collection-card img {
     width: 100%;
     height: auto;
@@ -162,31 +167,37 @@ main>p {
     border: 1px solid rgba(0, 0, 0, 0.25);
     margin-bottom: 16px;
 }
+
 .collection-card h2 {
     font-size: 24px;
     font-weight: bold;
     margin-top: 0;
 }
+
 .collection-card p {
     font-size: 16px;
     color: #555555;
 }
+
 .collection-card p.details {
     font-size: 14px;
     color: #413c3c;
     margin-bottom: 12px;
 }
+
 .collection-card p.description {
     font-size: 14px;
     color: #0d0d0d;
     line-height: 1.4;
     margin-bottom: 0;
 }
+
 .collection-card:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transform: translateY(-4px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .homepage-button {
   font-family: var(--font-main);
   background-color: #e893d3;
@@ -213,7 +224,6 @@ main>p {
   /* Add styles here that apply to screens 480px and wider */
 }
 
-
 /* Media query for screens at least 1024px wide */
 @media screen and (min-width: 1024px) {
   /* Adjust .collection-card flex-basis for a three-column layout */
@@ -228,5 +238,3 @@ main>p {
     flex-basis: calc(40% - 20px); /* Adjust for desired spacing, e.g., 20px gap */
   }
 }
-
-
