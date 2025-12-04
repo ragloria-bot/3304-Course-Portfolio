@@ -98,6 +98,29 @@ main {
   margin: 0 auto;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between text and image */
+  align-items: center; /* Vertically center the items */
+}
+
+.paragraph-wrap {
+  flex: 1; /* Takes up remaining space */
+  min-width: 250px; /* Ensures it doesn't get too small */
+}
+.image-wrap {
+  flex: 1; /* Takes up remaining space */
+  min-width: 250px; /* Ensures it doesn't get too small */
+  text-align: center; /* Center the image within its container */
+}
+.about-photo {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid var(--primary-color);
+  border-radius: 10px;
+}
+
 section {
   margin-bottom: var(--spacing-large);
 }
