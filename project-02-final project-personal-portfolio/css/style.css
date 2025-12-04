@@ -61,7 +61,7 @@ header, footer {
   padding: var(--spacing-large);
 }
 
-footer, p {
+footer {
     text-align: center;
 }
 
