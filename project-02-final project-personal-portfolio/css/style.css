@@ -74,6 +74,19 @@ header .logo {
     margin-left: 10px;
     transform: translateY(-50%);
 }
+header .logo:hover {
+    transition: transform 0.3s ease;
+    transform: translateY(-50%) scale(1.1); 
+}
+.header-divider {
+     margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 20px; /* Adjust this value for desired spacing between cards */
+    border-bottom: 2px solid var(--background-color);
+
+  }
+
 main {
   padding: var(--spacing-large);
   max-width: 1200px;
