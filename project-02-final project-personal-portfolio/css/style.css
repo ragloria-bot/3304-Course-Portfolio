@@ -225,11 +225,5 @@ main>p {
     flex-basis: calc(40% - 20px); /* Adjust for desired spacing, e.g., 20px gap */
   }
 }
-/* Media query for screens less than 768px wide */
-@media screen and (max-width: 767px) {
-  /* Stack .collection-card elements in a single column */
-  .collection-card {
-    flex-basis: 100%;
-  }
-}
+
 
