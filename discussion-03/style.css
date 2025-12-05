@@ -8,38 +8,36 @@ body {
      font-weight: normal;
      text-wrap: balance;
     } 
+
 h1 {
     color: white;
     font-size: 50px;  
     text-align: left;
     margin: 10px 0;
-    padding: 30px;
-    line-height: 20px;
     text-wrap: balance;
     }
+
 h2 {
     font-size: 40px;
     color: #781256;
     text-shadow: 2px 2px 4px #f8d5f4eb;
     text-align: left;
     margin: 10px 0;
-    padding: 30px;
-    line-height: 20px;
     text-wrap: balance; 
     }
+
 h3 {
     font-size: 35px;  
     text-align: left;
     margin: 10px 0;
-    padding: 30px;
-    line-height: 20px;
     text-wrap: balance; 
     }
+
 p {
     text-align: left;
     margin: 10px 0;
     padding: 30px;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 50px;
     font-weight: normal;
     text-wrap: balance;
@@ -59,6 +57,19 @@ a {
     text-shadow: 2px 2px 4px #f8d5f4eb;
     }
 
+ol {
+    font-size: 20px;
+    font-weight: normal;
+    color: #781256;
+    padding: 30px; /* Adds space between the text and the border */
+    text-align: center; /* Centers the text within the heading */
+    margin-left: 10px;
+    text-shadow: 2px 2px 4px #f8d5f4eb;
+}
+
+li {
+    text-align: left;
+}
 
 a:hover {
     text-decoration: underline; /* underline on hover */
