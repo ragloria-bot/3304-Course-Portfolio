@@ -68,3 +68,10 @@ a:hover {
     transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* smooth transition */
     text-shadow: 2px 2px 4px #f8d5f4eb;
     } 
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
