@@ -65,16 +65,18 @@ footer {
     text-align: center;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 header .logo {
-    width: 100px;
+    width: 150px;
     max-width: 100%;
     height: auto;
-    position: absolute;
     display: block;
-    top: 10%;
-    left: 50px;
-    margin-left: 10px;
-    transform: translateY(-30%);
+    margin: 0 auto;
+    margin-top: 50px;
 }
 header .logo:hover {
     transition: transform 0.3s ease;
