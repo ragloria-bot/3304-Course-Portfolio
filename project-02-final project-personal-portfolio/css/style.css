@@ -67,6 +67,7 @@ footer {
 
 header .logo {
     width: 100px;
+    max-width: 100%;
     height: auto;
     position: absolute;
     display: block;
@@ -256,5 +257,14 @@ main>p {
   /* Adjust .collection-card flex-basis for a two-column layout */
   .collection-card {
     flex-basis: calc(40% - 20px); /* Adjust for desired spacing, e.g., 20px gap */
+  } 
+}
+
+/* Styles for screens smaller than 768px (common mobile breakpoint) */
+@media screen and (max-width: 768px) { 
+  .header {
+    /* If you have a complex layout, you might change flex-direction */
+    flex-direction: column; 
+    align-items: flex-start;
   }
 }
