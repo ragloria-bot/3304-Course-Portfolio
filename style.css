@@ -63,7 +63,7 @@ li {
   margin: 20px 0;
 }
 
-nav.link {
+nav {
   font-size: 25px;
   line-height: 50px;
   font-weight: normal;
@@ -73,7 +73,6 @@ nav.link {
   border-radius: 0.625em; /* 10px rounded corners */
   text-shadow: 2px 2px 4px #f8d5f4eb;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */ 
-
 }
 footer {
   font-size: 18px;
