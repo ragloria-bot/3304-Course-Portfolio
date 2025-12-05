@@ -1,5 +1,5 @@
 body {
-     background-color: #ff44c1;
+     background-color: #fc8bd6;
      font-family: Arial, sans-serif;
      text-align: left;
      margin: 1.2px 50px;
@@ -52,7 +52,8 @@ a {
     color: #570d3e;
     text-decoration: none; /* Removes underline from links */
     background-color: #ff44c1; /* Sets the background color */
-    border: 10px solid #f993d7; /* Sets a 5px solid light pink border */
+    border: 10px solid white; /* Sets a 5px solid light pink border */
+    border-radius: 8px;
     padding: 20px; /* Adds space between the text and the border */
     text-align: center; /* Centers the text within the heading */
     margin: 20px;
