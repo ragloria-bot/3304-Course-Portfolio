@@ -268,3 +268,27 @@ main>p {
     align-items: flex-start;
   }
 }
+/* Styles for screens smaller than 480px (common mobile breakpoint) */
+@media screen and (max-width: 479px) { 
+  .header {
+    /* If you have a complex layout, you might change flex-direction */
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+}
+/* Styles for screens smaller than 768px (common mobile breakpoint) */
+@media screen and (max-width: 767px) { 
+  .header {
+    /* If you have a complex layout, you might change flex-direction */
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+}
+/* Styles for screens smaller than 1024px (common tablet breakpoint) */
+@media screen and (max-width: 1023px) { 
+  .header {
+    /* If you have a complex layout, you might change flex-direction */
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+}
