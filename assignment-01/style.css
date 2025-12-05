@@ -11,49 +11,30 @@ body {
 h1 {
     color: white;
     font-size: 50px;  
-    text-align: left;
     margin: 10px 0;
-    padding: 30px;
-    line-height: 20px;
-    text-wrap: balance;
     }
 h2 {
     font-size: 40px;
     color: #781256;
     text-shadow: 2px 2px 4px #f8d5f4eb;
-    text-align: left;
-    margin: 10px 0;
-    padding: 30px;
-    line-height: 20px;
-    text-wrap: balance; 
     }
+
 h3 {
-    font-size: 35px;  
-    text-align: left;
-    margin: 10px 0;
-    padding: 30px;
-    line-height: 20px;
-    text-wrap: balance; 
+    font-size: 35px; 
+
     }
 p {
-    text-align: left;
     margin: 10px 0;
-    padding: 30px;
     font-size: 30px;
-    line-height: 50px;
-    font-weight: normal;
-    text-wrap: balance;
     }
 a {
     text-align: center;
     font-size: 20px;
-    line-height: 5;
     font-weight: normal;
     color: #570d3e;
     text-decoration: none; /* Removes underline from links */
     background-color: #ff44c1; /* Sets the background color */
     border: 10px solid #f993d7; /* Sets a 5px solid light pink border */
-    padding: 20px; /* Adds space between the text and the border */
     text-align: center; /* Centers the text within the heading */
     margin: 20px;
     text-shadow: 2px 2px 4px #f8d5f4eb;
@@ -62,12 +43,10 @@ a {
 ul {
     text-align: left;
     font-size: 20px;
-    line-height: 1.5;
     font-weight: normal;
     color: #570d3e;
     background-color: #ff44c1; /* Sets the background color */
     border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-    padding: 30px; /* Adds space between the text and the border */
     text-align: center; /* Centers the text within the heading */
     margin-left: 100px;
     text-shadow: 2px 2px 4px #f8d5f4eb;
@@ -76,12 +55,10 @@ ul {
 ol {
     text-align: center;
     font-size: 16px;
-    line-height: 1.5;
     font-weight: normal;
     color: #570d3e;
     background-color: #ff44c1; /* Sets the background color */
     border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
-    padding: 30px; /* Adds space between the text and the border */
     text-align: center; /* Centers the text within the heading */
     margin-left: 100px;
     text-shadow: 2px 2px 4px #f8d5f4eb;
@@ -90,12 +67,10 @@ ol {
 li {
     text-align: center;
     font-size: 25px;
-    line-height: 1.5;
     font-weight: normal;
     color: #570d3e;
     background-color: #ff44c1; /* Sets the background color */
     border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-    padding: 10px; /* Adds space between the text and the border */
     text-align: left; /* Centers the text within the heading */
     margin-left: 0px;
     margin-right: 0px;
