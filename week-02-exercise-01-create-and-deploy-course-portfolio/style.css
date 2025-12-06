@@ -24,7 +24,6 @@ h4 {
     font-size: 30px;
     font-weight: bold;
     color: #781256;
-    text-align: center; /* Centers the text within the heading */
     text-decoration: underline; /* Underlines the text */
     text-shadow: 2px 2px 4px #f8d5f4eb;
     margin-bottom: 50px;
@@ -39,14 +38,24 @@ p {
 a {
     font-size: 20px;
     font-weight: normal;
-    color: #570d3e;
+    color: #781256;
     text-decoration: none; /* Removes underline from links */
     background-color: #ff44c1; /* Sets the background color */
-    border: 5px solid #faf8f9; /* Sets a 5px solid light pink border */
+    border: 10px solid #f8f6f7; /* Sets a 5px solid light pink border */
+    padding: 20px; /* Adds space between the text and the border */
     text-align: center; /* Centers the text within the heading */
     margin: 20px;
     text-shadow: 2px 2px 4px #f8d5f4eb;
     }
+ a:hover {
+    text-decoration: underline; /* underline on hover */
+    background-color: #984aa9; /* purple on hover */
+    color: white; /* white text on hover */
+    transform: scale(1.05); /* slightly enlarge on hover */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* smooth transition */
+    text-shadow: 2px 2px 4px #f8d5f4eb;
+    }  
 ul {
     font-size: 20px;
     font-weight: normal;
@@ -67,12 +76,3 @@ li {
     color: #781256;
     text-shadow: 2px 2px 4px #f8d5f4eb;
   }
- a:hover {
-    text-decoration: underline; /* underline on hover */
-    background-color: #984aa9; /* purple on hover */
-    color: white; /* white text on hover */
-    transform: scale(1.05); /* slightly enlarge on hover */
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
-    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* smooth transition */
-    text-shadow: 2px 2px 4px #f8d5f4eb;
-    } 
