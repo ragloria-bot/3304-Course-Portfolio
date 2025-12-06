@@ -52,7 +52,7 @@ li {
     color: #781256;
     text-decoration: none; /* Removes underline from links */
     background-color: #ff44c1; /* Sets the background color */
-    border: 10px solid #f993d7; /* Sets a 5px solid light pink border */
+    border: 10px solid #f3f0f2; /* Sets a 5px solid light pink border */
     padding: 20px; /* Adds space between the text and the border */
     text-align: center; /* Centers the text within the heading */
     margin: 10px;
