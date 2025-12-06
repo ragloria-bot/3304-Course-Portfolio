@@ -38,13 +38,14 @@ p {
     margin-bottom: 1.2px;
     }
 a {
-    text-align: center;
     font-size: 20px;
     font-weight: normal;
-    color: #781256;
+    color: #570d3e;
     text-decoration: none; /* Removes underline from links */
-    background-color: #f993d7; /* Sets the background color */
+    background-color: #ff44c1; /* Sets the background color */
+    border: 5px solid #faf8f9; /* Sets a 5px solid light pink border */
     text-align: center; /* Centers the text within the heading */
+    margin: 20px;
     text-shadow: 2px 2px 4px #f8d5f4eb;
     }
 ul {
