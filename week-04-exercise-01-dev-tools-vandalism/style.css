@@ -1,5 +1,5 @@
 body {
-   background-color: #ff44c1;
+   background-color: #fc8bd6;
    font-family: Arial, sans-serif;
    text-align: left;
    margin: 1.2px 10px;
@@ -11,66 +11,53 @@ body {
   h1 {
     color: white;
     font-size: 50px;  
-    text-align: left;
-    margin: 10px 0;
-    padding: 30px;
-    line-height: 20px;
-    text-wrap: balance;
+    margin: 10px 0
      }
+
  h2 {
     font-size: 40px;
     color: #781256;
     text-shadow: 2px 2px 4px #f8d5f4eb;
-    text-align: left;
-    margin: 10px 0;
-    padding: 30px;
-    line-height: 20px;
-    text-wrap: balance; 
  }
+
  h3 {
     font-size: 35px;  
-    text-align: left;
-    margin: 10px 0;
-    padding: 30px;
-    line-height: 20px;
-    text-wrap: balance;
     }
 p {
-    text-align: left;
-    margin: 10px 0;
-    padding: 30px;
     font-size: 30px;
-    line-height: 50px;
     font-weight: normal;
     text-wrap: balance;
     margin-bottom: 1.2px;
     }
 ul {
-    text-align: left;
     font-size: 20px;
-    line-height: 1.5;
     font-weight: normal;
     color: #170411;
     background-color: #ff44c1; /* Sets the background color */
-    border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
+    border: 5px solid #faeef6; /* Sets a 5px solid light pink border */
     padding: 10px; /* Adds space between the text and the border */
     margin-left: 10px;
     margin-right: 10px;
-    text-wrap: balance;
     }
 
 li {
-    text-align: center;
     font-size: 25px;
-    line-height: 1.5;
-    font-weight: normal;
-    color: #170411;
-    background-color: #ff44c1; /* Sets the background color */
-    padding: 10px; /* Adds space between the text and the border */
-    text-align: left; /* Aligns the text to the left */
-    text-wrap: balance;
     margin-left: 50px;
     }
+
+ a {
+    font-size: 20px;
+    line-height: 10;
+    font-weight: normal;
+    color: #781256;
+    text-decoration: none; /* Removes underline from links */
+    background-color: #ff44c1; /* Sets the background color */
+    border: 10px solid #f993d7; /* Sets a 5px solid light pink border */
+    padding: 20px; /* Adds space between the text and the border */
+    text-align: center; /* Centers the text within the heading */
+    margin: 10px;
+    text-shadow: 2px 2px 4px #f8d5f4eb;                 
+}
  a:hover {
     text-decoration: underline; /* underline on hover */
     background-color: #984aa9; /* purple on hover */
@@ -79,44 +66,30 @@ li {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
     transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* smooth transition */
     text-shadow: 2px 2px 4px #f8d5f4eb;
-    } 
+} 
+
      img {
-    text-align: left;
     font-size: 16px;
-    line-height: 1.5;
-    font-weight: normal;
     color: #591241;
     background-color: #ff44c1; /* Sets the background color */
     border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
-    padding: 10px; /* Adds space between the text and the border */
-    text-align: center; /* Centers the text within the heading */ 
+    padding: 10px; /* Adds space between the text and the border */ /* Centers the text within the heading */ 
     margin-top: 50px;
     text-shadow: 2px 2px 4px #f8d5f4eb;
-    margin: 20px; 
+
     } 
+
     main {
-    text-align: left;
     margin: 1.2px 50px;
-    padding: 100px;
-    line-height: 50px;
-    font-weight: normal;
-    text-wrap: balance;
     }
+
     div {
     text-align: center;
-    margin: 1.2px 50px;
-    padding: 20px;
-    line-height: 50px;
-    font-weight: normal;
-    text-wrap: balance;
     }
+
     .screenshot-container {
     text-align: center;
-    margin: 1.2px 50px;
-    padding: 20px;
-    line-height: 50px;
-    font-weight: normal;
-    text-wrap: balance;
+;
     }
 
 
