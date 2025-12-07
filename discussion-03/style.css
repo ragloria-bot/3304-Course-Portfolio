@@ -18,10 +18,7 @@ h2 {
     font-size: 40px;
     color: #781256;
     text-shadow: 2px 2px 4px #f8d5f4eb;
-    }
 
-h3 {
-    font-size: 35px;   
     }
 
 p {
@@ -55,10 +52,8 @@ a {
 ol, ul {
     font-size: 25px;
     font-weight: normal;
-    color: #781256;
     text-align: center; /* Centers the text within the heading */
     margin-left: 10px;
-    text-shadow: 2px 2px 4px #f8d5f4eb;
 }
 
 li {
