@@ -16,7 +16,6 @@ h1 {
 h2 {
     font-size: 40px;
     color: #781256;
-    text-shadow: 2px 2px 4px #f8d5f4eb;
     }
 
 h3 {
@@ -38,7 +37,6 @@ a {
     padding: 20px; /* Adds space between the text and the border */
     text-align: center; /* Centers the text within the heading */
     margin: 20px;
-    text-shadow: 2px 2px 4px #f8d5f4eb;
     }
  a:hover {
     text-decoration: underline; /* underline on hover */
@@ -59,7 +57,6 @@ ul {
     border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
     text-align: center; /* Centers the text within the heading */
     margin-left: 100px;
-    text-shadow: 2px 2px 4px #f8d5f4eb;
     }
 
 ol {
@@ -71,7 +68,6 @@ ol {
     border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
     text-align: center; /* Centers the text within the heading */
     margin-left: 100px;
-    text-shadow: 2px 2px 4px #f8d5f4eb;
     }
 
 li {
@@ -84,5 +80,5 @@ li {
     text-align: left; /* Centers the text within the heading */
     margin-left: 0px;
     margin-right: 0px;
-    text-shadow: 2px 2px 4px #f8d5f4eb;
+
  }
