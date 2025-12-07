@@ -24,6 +24,7 @@ h4 {
     font-size: 30px;
     font-weight: bold;
     color: #781256;
+    text-align: left;
     text-decoration: underline; /* Underlines the text */
     text-shadow: 2px 2px 4px #f8d5f4eb;
     margin-bottom: 50px;
