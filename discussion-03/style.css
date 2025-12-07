@@ -52,7 +52,7 @@ a {
     text-shadow: 2px 2px 4px #f8d5f4eb;
     }  
 
-ol {
+ol, ul {
     font-size: 25px;
     font-weight: normal;
     color: #781256;
