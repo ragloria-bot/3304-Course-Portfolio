@@ -49,36 +49,26 @@ a {
     }  
 
 ul {
-    text-align: left;
     font-size: 20px;
     font-weight: normal;
     color: #570d3e;
     background-color: #ff44c1; /* Sets the background color */
     border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-    text-align: center; /* Centers the text within the heading */
-    margin-left: 100px;
     }
 
 ol {
-    text-align: center;
     font-size: 16px;
     font-weight: normal;
     color: #570d3e;
     background-color: #ff44c1; /* Sets the background color */
     border: 5px solid #f7d9ed; /* Sets a 5px solid light pink border */
-    text-align: center; /* Centers the text within the heading */
-    margin-left: 100px;
     }
 
 li {
-    text-align: center;
     font-size: 25px;
     font-weight: normal;
     color: #570d3e;
     background-color: #ff44c1; /* Sets the background color */
     border: 0px solid #f7d9ed; /* Sets a 5px solid light pink border */
-    text-align: left; /* Centers the text within the heading */
-    margin-left: 0px;
-    margin-right: 0px;
 
  }
